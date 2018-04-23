@@ -33,5 +33,3 @@ INT - this is the INTerrupt pin from the sensor.
 [Assembly](https://learn.adafruit.com/adafruit-tsl2591/assembly)
 
 [Sensor to Pi](https://github.com/LeivoSepp/Lesson-LightSensor-TSL2591)
-
-[Other Info](https://www.raspberrypi.org/forums/viewtopic.php?t=129154)
