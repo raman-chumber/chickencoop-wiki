@@ -1,6 +1,6 @@
 # Smart Chicken Coop
 
-**EEE174/CpE185 Project** <\br>
+**EEE174/CpE185 Project** <br>
 **Team Name: Coop-a-Cabana**                           
 **Stephanie Rivers**
 **Gabriel Dominguez**
