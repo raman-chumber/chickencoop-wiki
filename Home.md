@@ -1,6 +1,25 @@
-# Welcome
+# Smart Chicken Coop
 
-Welcome to your wiki! This is the default page we've installed for your convenience. Go ahead and edit it.
+**EEE174/CpE185 Project**
+**Team Name: Coop-a-Cabana**                           
+Stephanie Rivers
+Gabriel Dominguez
+Ramandeep Chumber
+Justin Ellis
+
+
+**Introduction**
+The project will be a chicken coop that uses sensors and communication systems to make it
+easy for someone who has limited time or experience to be able to house chickens safely. The
+sensors will include a temperature sensor that will use controllers to determine the intensity of
+heat lamps, a flow sensor that will be placed in conjunction with the automatic waterer to
+determine if there is a leak or a clog in the system. The roof will have solar panels that will
+charge a battery system to power all of these devices. There will be a weight sensor that when
+properly calibrated will inform the user if there is an egg. There will be a smoke detector that will
+activate a small sprinkler off of the waterer’s supply if smoke is detected as a fire safety device if
+the heat lamps fail. A motor will be used to spin an arm that spreads feed out at specified times.
+
+
 
 ## Wiki features
 
