@@ -27,6 +27,15 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 [Lab 8: Charging Battery with Solar Panel](https://bitbucket.org/coopacabana/project/wiki/Lab%208:%20Charging%20Battery%20with%20Solar%20Panel)
 
+[Lab 9: Activating Stepper Motor with Raspberry Pi to control door](https://bitbucket.org/coopacabana/project/wiki/Lab%209:%20Activating%20Stepper%20motor%20with%20Raspberry%20Pi%20to%20control%20door)
+
+
+
+
+
+
+
+
 ## Wiki features
 
 This wiki uses the [Markdown](http://daringfireball.net/projects/markdown/) syntax. The [MarkDownDemo tutorial](https://bitbucket.org/tutorials/markdowndemo) shows how various elements are rendered. The [Bitbucket documentation](https://confluence.atlassian.com/x/FA4zDQ) has more information about using a wiki.
