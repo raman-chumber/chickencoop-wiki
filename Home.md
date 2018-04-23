@@ -21,11 +21,11 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 **Ramandeep Chumber Labs**
 
-[Digital light Sensor](https://bitbucket.org/coopacabana/project/wiki/Light%20Sensor:%20Digital%20Photo-resistor%20with%20Raspberry%20Pi)
+[Lab 6: Digital light Sensor](https://bitbucket.org/coopacabana/project/wiki/Light%20Sensor:%20Digital%20Photo-resistor%20with%20Raspberry%20Pi)
 
-[Generate Clock Events](https://bitbucket.org/coopacabana/project/wiki/Lab%207:%20Generate%20Clock%20events%20using%20Pi)
+[Lab 7: Generate Clock Events](https://bitbucket.org/coopacabana/project/wiki/Lab%207:%20Generate%20Clock%20events%20using%20Pi)
 
-[Charging Battery with Solar Panel](https://bitbucket.org/coopacabana/project/wiki/Lab%208:%20Charging%20Battery%20with%20Solar%20Panel)
+[Lab 8: Charging Battery with Solar Panel](https://bitbucket.org/coopacabana/project/wiki/Lab%208:%20Charging%20Battery%20with%20Solar%20Panel)
 
 ## Wiki features
 
