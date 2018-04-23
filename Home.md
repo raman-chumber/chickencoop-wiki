@@ -4,7 +4,7 @@
 **Team Name: Coop-a-Cabana**                         
 **Stephanie Rivers**
 **Gabriel Dominguez**
-**Ramandeep Chumber**<br/>
+**Ramandeep Chumber**<p>
 **Justin Ellis**
 
 
