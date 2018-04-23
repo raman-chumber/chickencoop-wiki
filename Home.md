@@ -1,10 +1,10 @@
 # Smart Chicken Coop
 
 **EEE174/CpE185 Project** 
-**Team Name: Coop-a-Cabana** <--                         
+**Team Name: Coop-a-Cabana**                         
 **Stephanie Rivers**
 **Gabriel Dominguez**
-**Ramandeep Chumber**
+**Ramandeep Chumber**</br>
 **Justin Ellis**
 
 
