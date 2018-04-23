@@ -22,3 +22,7 @@ SDA - I2C data pin, connect to your microcontrollers I2C data line.
 
 **Other Pins**
 INT - this is the INTerrupt pin from the sensor.
+
+
+**Reference**
+[Assembly](https://learn.adafruit.com/adafruit-tsl2591/assembly)
