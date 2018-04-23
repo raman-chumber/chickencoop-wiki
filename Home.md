@@ -7,7 +7,7 @@
 
 
 
-**Introduction**
+##Introduction
 The project will be a chicken coop that uses sensors and communication systems to make it
 easy for someone who has limited time or experience to be able to house chickens safely. The
 sensors will include a temperature sensor that will use controllers to determine the intensity of
@@ -19,7 +19,7 @@ activate a small sprinkler off of the waterer’s supply if smoke is detected as
 the heat lamps fail. A motor will be used to spin an arm that spreads feed out at specified times.
 
 
-**Ramandeep Chumber Labs**
+##Ramandeep Chumber Labs
 
 [Lab 6: Digital light Sensor](https://bitbucket.org/coopacabana/project/wiki/Light%20Sensor:%20Digital%20Photo-resistor%20with%20Raspberry%20Pi)
 
