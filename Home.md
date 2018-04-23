@@ -3,7 +3,7 @@
 **EEE174/CpE185 Project** 
 **Team Name: Coop-a-Cabana**                         
 **Stephanie Rivers**
-**Gabriel Dominguez**\
+**Gabriel Dominguez**
 **Ramandeep Chumber**
 **Justin Ellis**
 
