@@ -25,7 +25,7 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 [Generate Clock Events](https://bitbucket.org/coopacabana/project/wiki/Lab%207:%20Generate%20Clock%20events%20using%20Pi)
 
-[Charging Battery with Solar Panel](https://bitbucket.org/coopacabana/project/wiki/Lab%208:%20Charging%20Battery%20with%20Solar%20Panel%20and%20Raspberry%20Pi)
+[Charging Battery with Solar Panel](https://bitbucket.org/coopacabana/project/wiki/Lab%208:%20Charging%20Battery%20with%20Solar%20Panel)
 
 ## Wiki features
 
