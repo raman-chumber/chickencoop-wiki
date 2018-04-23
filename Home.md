@@ -4,13 +4,7 @@
 
 **Team Name: Coop-a-Cabana**   
                       
-**Stephanie Rivers**
 
-**Gabriel Dominguez**
-
-**Ramandeep Chumber**
-
-**Justin Ellis**
 
 
 **Introduction**
@@ -23,6 +17,11 @@ charge a battery system to power all of these devices. There will be a weight se
 properly calibrated will inform the user if there is an egg. There will be a smoke detector that will
 activate a small sprinkler off of the waterer’s supply if smoke is detected as a fire safety device if
 the heat lamps fail. A motor will be used to spin an arm that spreads feed out at specified times.
+
+
+**Ramandeep Chumber Labs**
+
+Lab 6: Digital light Sensor
 
 
 
