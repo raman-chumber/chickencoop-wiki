@@ -23,12 +23,18 @@ SDA - I2C data pin, connect to your microcontrollers I2C data line.
 **Other Pins**
 INT - this is the INTerrupt pin from the sensor.
 
+##To connect Raspberry Pi with digital light sensor
+
+To connect this sensor to Raspberry PI you need 4 wires. Two of the wires used for voltage Vin (+3V from Raspberry) and ground GND and remaining two are used for data. As this is digital sensor, it uses I2C protocol to communicate with the Raspberry. For I2C we need two wires, Data (SDA) and Clock (SCL). Connect sensor SDA and SCL pins accordingly to Raspberry SDA and SCL pins.
+
+ADD PICTURE
+
+
+##Code
 
 
 
-
-
-**Reference**
+##Reference
 
 [Assembly](https://learn.adafruit.com/adafruit-tsl2591/assembly)
 
