@@ -42,7 +42,7 @@ ADD PICTURE
 
 	lux = tsl.calculate_lux(full, ir)  # convert raw values to lux
 
-	**print** lux, full, ir
+	print lux, full, ir
 
 ##Reference
 
