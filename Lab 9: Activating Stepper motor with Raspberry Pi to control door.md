@@ -23,11 +23,11 @@ Stepper motors us a cogged wheel and electro magnets to nudge the wheel round a 
 
 This project uses the Rpi.GPIO Library.I used GPIO connector with the breadboard for Pi. 
 
-1. sudo apt-get update
+ sudo apt-get update
 
 
 
-1. sudo apt-get install git
+ sudo apt-get install git
 
 
 
