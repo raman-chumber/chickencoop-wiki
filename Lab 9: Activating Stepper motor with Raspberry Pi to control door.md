@@ -36,3 +36,10 @@ This project uses the Rpi.GPIO Library.I used GPIO connector with the breadboard
 2. cd Adafruit-Raspberry-Pi-Python-Code
 
 3. ls
+
+
+
+
+Reference
+
+[GPIO Help](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-gpio)
