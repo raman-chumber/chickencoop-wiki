@@ -21,25 +21,21 @@ Stepper motors us a cogged wheel and electro magnets to nudge the wheel round a 
 
 ##Library Used
 
-This project uses the Rpi.GPIO Library.I used GPIO connector with the breadboard for Pi. 
+This project uses the Rpi.GPIO Library.I used GPIO connector with the breadboard for Pi. To install RPi.GPIO, we first need to install the Python Development toolkit that RPi.GPIO requires.
 
- sudo apt-get update
-
-
-
- sudo apt-get install git
+sudo apt-get install python-dev
 
 
+Then to install Rpi.GPIO itself type:
 
-1. git clone http://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code.git
 
-2. cd Adafruit-Raspberry-Pi-Python-Code
+sudo apt-get install python-rpi.gpio
 
-3. ls
+
+You will probably be prompted to confirm by entering 'Y'.
 
 
 
-
-Reference
+##Reference
 
 [GPIO Help](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-gpio)
