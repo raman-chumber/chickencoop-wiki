@@ -7,4 +7,4 @@ In this lab we will be using 12 VDC bipolar stepper motor (angle 5.625 degrees/ 
 ##Pins Direction
 
 ##Stepper Motor coils
-![Alt](https://learn.adafruit.com/assets/3696)
+![Alt coils](https://cdn-learn.adafruit.com/assets/assets/000/003/696/original/learn_raspberry_pi_steppers.png?1396800693)
