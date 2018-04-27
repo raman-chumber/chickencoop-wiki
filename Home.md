@@ -33,8 +33,8 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 
 ##Stephanie's Labs
-[Lab 6]
-(https://bitbucket.org/coopacabana/project/wiki/Stephanie's%20Lab6)
+[Lab 6: Stepper Motor to run Feeder]
+(https://bitbucket.org/coopacabana/project/wiki/Stephanie's%20Lab6:%20Stepper%20Motor%20to%20run%20Feeder)
 
 
 
