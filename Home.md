@@ -32,7 +32,9 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 [Lab 10: Charging Battery with Solar Panel and Raspberry Pi](https://bitbucket.org/coopacabana/project/wiki/Lab%2010:%20Charging%20Battery%20with%20Solar%20Panel%20and%20Raspberry%20Pi)
 
 
-
+##Stephanie's Labs
+[Lab 6]
+(https://bitbucket.org/coopacabana/project/wiki/Stephanie's%20Lab6)
 
 
 
