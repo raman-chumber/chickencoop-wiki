@@ -32,9 +32,9 @@ ADD PICTURE
 
 ##Code
 
-**import** tsl2591
+import tsl2591
 
-**while True:**
+while True:
 
 	tsl = tsl2591.Tsl2591()  # initialize
 
