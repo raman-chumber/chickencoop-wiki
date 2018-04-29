@@ -54,4 +54,4 @@ while True:
 
 [Assembly](https://learn.adafruit.com/adafruit-tsl2591/assembly)
 
-[Sensor to Pi](https://github.com/LeivoSepp/Lesson-LightSensor-TSL2591)
+[Sensor to Pi](https://github.com/maxlklaxl/python-tsl2591)
