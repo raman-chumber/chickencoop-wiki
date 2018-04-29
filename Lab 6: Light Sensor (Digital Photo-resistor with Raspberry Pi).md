@@ -32,6 +32,10 @@ ADD PICTURE
 
 ##Code
 
+
+```
+#!python
+
 import tsl2591
 
 while True:
@@ -43,6 +47,8 @@ while True:
 	lux = tsl.calculate_lux(full, ir)  # convert raw values to lux
 
 	print lux, full, ir
+```
+
 
 ##Reference
 
