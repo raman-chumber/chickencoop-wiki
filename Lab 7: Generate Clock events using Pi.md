@@ -92,7 +92,10 @@ The RTC automatically converts the temperature (updates the registers) every 64s
 
 The following python code is used to convert, read, and display the temperature.
 
-## python
+
+```
+#!python
+
 
 import smbus
 import os
@@ -128,6 +131,7 @@ def getTemp(address):
 Celsius = getTemp(address)
 Fahrenheit = 9.0/5.0 * Celsius + 32
 print Fahrenheit, "*F /", Celsius, "*C"
+```
 
 
 ##Conclusion
