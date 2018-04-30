@@ -23,7 +23,7 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 [Lab 6: Light Sensor (Digital Photo-resistor with Raspberry Pi)](https://bitbucket.org/coopacabana/project/wiki/Lab%206:%20Light%20Sensor%20(Digital%20Photo-resistor%20with%20Raspberry%20Pi))
 
-[Lab 7: Generate Clock Events](https://bitbucket.org/coopacabana/project/wiki/Lab%207:%20Generate%20Clock%20events%20using%20Pi)
+[Lab 7: Real Time Clock with Raspberry Pi](https://bitbucket.org/coopacabana/project/wiki/Lab%207:%20Real%20Time%20Clock%20with%20Raspberry%20Pi)
 
 [Lab 8: Charging Battery with Solar Panel](https://bitbucket.org/coopacabana/project/wiki/Lab%208:%20Charging%20Battery%20with%20Solar%20Panel)
 
