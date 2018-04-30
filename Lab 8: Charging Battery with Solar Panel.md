@@ -16,7 +16,7 @@ I followed all the steps in [this link](https://learn.adafruit.com/usb-dc-and-so
 
 ##Thermistor attached to the batteries
 
-![IMG_5915.JPG](https://bitbucket.org/repo/BgdaKR7/images/2449237769-IMG_5915.JPG)
+![IMG_5939.JPG](https://bitbucket.org/repo/BgdaKR7/images/2603940918-IMG_5939.JPG)
 
 ## Final Connection
 
