@@ -38,19 +38,29 @@ detect power failures, to provide a reset output, and to automatically switch to
  
 ##Configure RTC on Pi
 * Install the Utilities
+       
        sudo apt-get update
        sudo apt-get install python-smbus
        sudo apt-get install i2c-tools
+
 * Enable kernel support
-       * sudo raspi-config
+       
+       sudo raspi-config
+
        * Choose Advanced Options then I2C and select yes to enable the interface.
+
 * Edit the module file
+
         sudo nano /etc/modules
+
         * Add the following to the to the end of this file
+
                 i2c-bcm2708
                 i2c-dev
                 rtc-ds1307
+
 * Test the bus
+
 Check your I2C bus with, sudo i2cdetect -y 1
 
 After following all the steps, I got the Following output
