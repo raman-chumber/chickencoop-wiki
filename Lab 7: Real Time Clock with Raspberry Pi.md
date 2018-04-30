@@ -1,4 +1,5 @@
-**Introduction**
+#Introduction
+
 The Real Time Clock maintains seconds, minutes, hours, day, date, month, and year information. For this lab we are using Adafruit DS3231 Precision RTC Breakout. It is an Extremely Accurate I²C-Integrated RTC/TCXO/Crystal. The date at the end of the month is automatically adjusted for months with fewer than 31 days, including corrections for leap year. The clock operates in either the 24-hour or 12-hour format with an AM/PM indicator. Two programmable time-of-day alarms and a programmable square-wave output are provided. Address and data are transferred serially through an I2C bidirectional bus.
 A precision temperature-compensated voltage reference and comparator circuit monitors the status of VCC to
 detect power failures, to provide a reset output, and to automatically switch to the backup supply when necessary. Additionally, the RST pin is monitored as a pushbutton input for generating a μP reset.
