@@ -35,8 +35,14 @@ detect power failures, to provide a reset output, and to automatically switch to
 
 ## Pi GPIO Pinouts with RTC
 ![Screenshot 2018-04-30 12.19.05.png](https://bitbucket.org/repo/BgdaKR7/images/3162830509-Screenshot%202018-04-30%2012.19.05.png)
+
+##Part1: Configuring I2C
+Follow [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
+) to configure I2C on the Pi
  
-##Configure RTC on Pi
+
+
+##Part2: Configure RTC on Pi
 * Install the Utilities
        
        sudo apt-get update
@@ -75,7 +81,58 @@ When connected to the Internet, the pi automatically gets the date and time from
              sudo hwclock -w - write the system time to the RTC
              sudo hwclock -s - set the system time from the RTC
 
+Running all these commands in terminal I got the following output.
+
 ![Screenshot 2018-04-30 12.30.42.png](https://bitbucket.org/repo/BgdaKR7/images/2390713276-Screenshot%202018-04-30%2012.30.42.png)
+
+##Part3: Converting and reading the temperature
+The DS3231M has an operating temperature range of -45 C to 85 C. The RTC stores its temperature data in two registers. The upper 8 bits, representing an integer, are stored in two's complement form in register 11h. The lower 2 bits, representing the fractional portion, are in register 12h.
+
+The RTC automatically converts the temperature (updates the registers) every 64s. The maximum allowed by the chip is once every second. A convert may be forced by setting the CONV bit of the Control register (0Eh) to 1. Once the convert is completed, the CONV is set to 0 and the temperature may be read.
+
+The following python code is used to convert, read, and display the temperature.
+
+## python
+
+import smbus
+import os
+
+# Release RTC 3231
+os.system('sudo rmmod rtc_ds1307')
+
+# Setup RTC 3231 for temperature reading
+bus = smbus.SMBus(1)
+address = 0x68
+CONV = 32
+
+# Force a conversion and wait until it completes
+def convTemp(address):
+    byte_control = bus.read_byte_data(address,0x0E)
+    if byte_control&CONV == 0:
+        bus.write_byte_data(address, 0x0E, byte_control|CONV)
+    byte_control = bus.read_byte_data(address,0x0E)
+    while byte_control&CONV != 0:
+        time.sleep(1)
+        byte_control = bus.read_byte_data(address,0x0E)
+    return True
+
+# Get temperature in degrees C
+def getTemp(address):
+    convTemp(address)
+    byte_tmsb = bus.read_byte_data(address,0x11)
+    byte_tlsb = bus.read_byte_data(address,0x12)
+    tinteger = (byte_tmsb & 0x7f) + ((byte_tmsb & 0x80) >> 7) * -2**8
+    tdecimal = (byte_tmsb >> 7) * 2**(-1) + ((byte_tmsb & 0x40) >> 6) * 2**(-2)
+    return tinteger + tdecimal
+
+Celsius = getTemp(address)
+Fahrenheit = 9.0/5.0 * Celsius + 32
+print Fahrenheit, "*F /", Celsius, "*C"
+
+
+##Conclusion
+Your pi now as a battery backed, accurate RTC installed and working. This allows quality data-logging and other applications. Additionally, the temperature data from the RTC is available for your use. In Basic GPIO on the Raspberry Pi, temperature data is used to light LEDs and send alerts.
+
 
 ##References
 [About Adafruit DS3231 Precision RTC Breakout](https://cdn-shop.adafruit.com/product-files/3013/DS3231.pdf)
