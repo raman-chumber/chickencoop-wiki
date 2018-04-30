@@ -4,8 +4,7 @@ This lab uses a TSL2591 luminosity sensor. It is an advanced digital light senso
 
 ##Pinouts
 It is a I2C sensor. That means it uses the two I2C data/clock wires available on most microcontrollers and can share those pins with other sensors as long as they don't have an address collision. 
-
-![Alt Pinouts](https://cdn-learn.adafruit.com/assets/assets/000/017/913/original/sensors_schematic.png?1405025160)
+![rsz_sensors_schematic.png](https://bitbucket.org/repo/BgdaKR7/images/4079381395-rsz_sensors_schematic.png)
 
 **Power Pins**
 Vin - This is the power pin. Since the chip uses 3 VDC, we have included a voltage regulator on board that will take 3-5VDC and safely convert it down. For Raspberry Pi it uses 5VDC.
