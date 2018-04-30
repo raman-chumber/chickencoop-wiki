@@ -50,7 +50,7 @@ while True:
 Compilation done successfully.
 ![rsz_img_5918.jpg](https://bitbucket.org/repo/BgdaKR7/images/603732369-rsz_img_5918.jpg)
 
-Output seen below.
+Output seen below for Lux, Full, IR.
 ![rsz_img_5919.jpg](https://bitbucket.org/repo/BgdaKR7/images/3784567407-rsz_img_5919.jpg)
 
 ##Reference
