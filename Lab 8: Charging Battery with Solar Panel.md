@@ -23,3 +23,8 @@ I followed all the steps in [this link](https://learn.adafruit.com/usb-dc-and-so
 ![IMG_5915.JPG](https://bitbucket.org/repo/BgdaKR7/images/3275491932-IMG_5915.JPG)
 
 ## Providing Power to Raspberry Pi using Solar panel
+
+
+
+##Reference
+(https://learn.adafruit.com/usb-dc-and-solar-lipoly-charger/using-the-charger?view=all#downloads)
