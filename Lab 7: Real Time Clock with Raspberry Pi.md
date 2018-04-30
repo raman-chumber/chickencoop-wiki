@@ -146,6 +146,9 @@ Your pi now as a battery backed, accurate RTC installed and working. This allows
 
 
 ##References
+
 [About Adafruit DS3231 Precision RTC Breakout](https://cdn-shop.adafruit.com/product-files/3013/DS3231.pdf)
+
 [RTC Assembly](https://learn.adafruit.com/adafruit-ds3231-precision-rtc-breakout/assembly)
+
 [Connecting RTC to Raspberry Pi](http://www.intellamech.com/RaspberryPi-projects/rpi_RTCds3231)
