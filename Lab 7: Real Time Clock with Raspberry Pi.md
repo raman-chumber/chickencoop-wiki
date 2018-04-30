@@ -142,7 +142,9 @@ I got the following output for this part.
 ![Screenshot 2018-04-30 12.44.27.png](https://bitbucket.org/repo/BgdaKR7/images/2417480648-Screenshot%202018-04-30%2012.44.27.png)
 
 ##Conclusion
-Your pi now as a battery backed, accurate RTC installed and working. This allows quality data-logging and other applications. Additionally, the temperature data from the RTC is available for your use. In Basic GPIO on the Raspberry Pi, temperature data is used to light LEDs and send alerts.
+
+
+
 
 
 ##References
