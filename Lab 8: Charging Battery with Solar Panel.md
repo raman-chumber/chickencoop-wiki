@@ -2,7 +2,7 @@
 
 In this lab we used 6V Solar Panel to charge two Lithium Ion Polymer Batteries (3.7V 1200mAh each). We can use 3.7V/4.2V lithium ion/polymer batteries. We used USB/DC/Solar Lithium Ion/Polymer charger-v2. We also used a 10K NTC thermistor.
 
-##USB/DC/Solar Lithium Ion/Polymer charger
+## MCP73871 USB/DC/Solar Lithium Ion/Polymer charger
 
 ![390-07 2.jpg](https://bitbucket.org/repo/BgdaKR7/images/1188171953-390-07%202.jpg)
 
@@ -20,6 +20,9 @@ In this lab we used 6V Solar Panel to charge two Lithium Ion Polymer Batteries (
 * Smart load sharing automatically uses the input power when available, to keep battery from constantly charging/discharging
 * Temperature monitoring of battery by soldering in a 10K NTC thermistor- suggested for outdoor projects where the battery may get hot (50°C) or cold (0°C).
 
+##Pin Plan
+
+![Screenshot 2018-04-30 21.07.17.png](https://bitbucket.org/repo/BgdaKR7/images/4168402367-Screenshot%202018-04-30%2021.07.17.png)
 
 ##Part1: Installing the Capacitor
 
