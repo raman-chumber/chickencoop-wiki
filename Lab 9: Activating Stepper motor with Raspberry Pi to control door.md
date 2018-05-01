@@ -1,14 +1,25 @@
 ##Introduction
 
-In this lab we will be using 12 VDC bipolar stepper motor (angle 5.625 degrees/ 64 steps). Stepper motors can be positioned accurately, moved forward or backwards one step at a time. They are bipolar and can also rotate continuously. In this lab we will learn how to control a stepper motor using your Raspberry Pi and L298D dual H bridge driver. 
+In this lab we will be using 12 VDC bipolar stepper motor (angle 5.625 degrees/ 64 steps). Stepper motors can be positioned accurately, moved forward or backwards one step at a time. They are bipolar and can also rotate continuously. In this lab we will learn how to control a stepper motor using your Raspberry Pi and L298 dual H bridge driver. 
 
+##L298 dual h bridge driver
 
+The L298 Dual H-Bridge DC Motor Controller will allow you to easily and independently control two motors of up to 2A each in both directions.
 
+![Screenshot 2018-04-30 21.24.19.png](https://bitbucket.org/repo/BgdaKR7/images/853047541-Screenshot%202018-04-30%2021.24.19.png)
 
+Features
+*  Motor supply: 7 to 24 VDC
+*  Control Logic: Standard TTL Logic Level
+*  Output Power: Up to 2 A each
+*  Enable and Direction Control Pins
+*  Heatsink for IC
+*  Power-On LED indicator
+*  4 Direction LED indicators
 
-##Pin plans
+* Pin plan
 
-
+![Screenshot 2018-04-30 21.40.47.png](https://bitbucket.org/repo/BgdaKR7/images/3293322929-Screenshot%202018-04-30%2021.40.47.png)
 
 
 
