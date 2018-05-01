@@ -1,9 +1,6 @@
 #Introduction
 
-The Real Time Clock maintains seconds, minutes, hours, day, date, month, and year information. For this lab we are using Adafruit DS3231 Precision RTC Breakout. It is an Extremely Accurate I²C-Integrated RTC/TCXO/Crystal. The date at the end of the month is automatically adjusted for months with fewer than 31 days, including corrections for leap year. The clock operates in either the 24-hour or 12-hour format with an AM/PM indicator. Two programmable time-of-day alarms and a programmable square-wave output are provided. Address and data are transferred serially through an I2C bidirectional bus.
-A precision temperature-compensated voltage reference and comparator circuit monitors the status of VCC to
-detect power failures, to provide a reset output, and to automatically switch to the backup supply when necessary. Additionally, the RST pin is monitored as a pushbutton input for generating a μP reset.
-
+The Real Time Clock maintains seconds, minutes, hours, day, date, month, and year information. For this lab we are using Adafruit DS3231 Precision RTC Breakout. It has an Extremely Accurate I²C-Integrated RTC/TCXO/Crystal. The date at the end of the month is automatically adjusted, for months with fewer than 31 days (including corrections for leap year). The clock operates in either the 24 or 12-hour format with an AM/PM indicator. Two programmable time-of-day alarms and a programmable square-wave output are provided. Address and data are transferred serially through an I2C bidirectional bus.
 
 ![components_3013_kit_ORIG 2.jpg](https://bitbucket.org/repo/BgdaKR7/images/919966187-components_3013_kit_ORIG%202.jpg)
 
@@ -37,7 +34,7 @@ detect power failures, to provide a reset output, and to automatically switch to
 ## Pi GPIO Pinouts with RTC
 ![Screenshot 2018-04-30 12.19.05.png](https://bitbucket.org/repo/BgdaKR7/images/3162830509-Screenshot%202018-04-30%2012.19.05.png)
 
-##Part1: Configuring I2C
+##Part 1: Configuring I2C
 
 I followed [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
 ) to configure I2C on the Pi.
@@ -71,7 +68,7 @@ Add the following to the to the end of this file
  
 
 
-##Part2: Configure RTC on Pi
+##Part 2: Configure RTC on Pi
 
 * Install the Utilities
        
@@ -109,7 +106,7 @@ After following all the steps, I got the Following output
 
 ![Screenshot 2018-04-30 12.28.43.png](https://bitbucket.org/repo/BgdaKR7/images/148155558-Screenshot%202018-04-30%2012.28.43.png)
 
-##Set date and time
+##Part 3: Set date and time
 
 When connected to the Internet, the pi automatically gets the date and time from time servers. These are quite accurate. With the command hwclock -s in rc.local, we have set the pi to override this time to match the RTC. This is fine once we have the correct time on the RTC. So let's set it to the correct time.
 
@@ -127,7 +124,7 @@ Running all these commands in terminal I got the following output.
 
 ![Screenshot 2018-04-30 12.30.42.png](https://bitbucket.org/repo/BgdaKR7/images/2390713276-Screenshot%202018-04-30%2012.30.42.png)
 
-##Part3: Converting and reading the temperature
+##Part 4: Converting and reading the temperature
 The DS3231M has an operating temperature range of -45 C to 85 C. The RTC stores its temperature data in two registers. The upper 8 bits, representing an integer, are stored in two's complement form in register 11h. The lower 2 bits, representing the fractional portion, are in register 12h.
 
 The RTC automatically converts the temperature (updates the registers) every 64s. The maximum allowed by the chip is once every second. A convert may be forced by setting the CONV bit of the Control register (0Eh) to 1. Once the convert is completed, the CONV is set to 0 and the temperature may be read.
