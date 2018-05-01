@@ -41,6 +41,33 @@ detect power failures, to provide a reset output, and to automatically switch to
 
 I followed [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
 ) to configure I2C on the Pi.
+
+
+* Install the utilities
+ 
+               sudo apt-get update
+
+               sudo apt-get install python-smbus
+
+               sudo apt-get install i2c-tools
+
+* Enable kernel support
+
+               sudo raspi-config
+
+* Choose Advanced Options then I2C and select yes to enable the interface.
+
+Edit the module file
+
+               sudo nano /etc/modules
+
+Add the following to the to the end of this file
+           
+               i2c-bcm2708
+
+               i2c-dev
+
+               rtc-ds1307
  
 
 
@@ -56,7 +83,7 @@ I followed [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-
 
 * Enable kernel support
        
-       sudo raspi-config
+         sudo raspi-config
 
 Choose Advanced Options then I2C and select yes to enable the interface.
 
