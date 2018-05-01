@@ -34,22 +34,35 @@ Plug solar panel into the DC jack. Put the solar panel outside (and keep the bat
 
 ##Part3: Battery
 
-Plug the battery into the BATT port using a 2-pin JST cable. I used two Lithium Ion +3.7V, 2000 mAh batteries. When the CHRG charging light is lit, the battery is being charged. When the battery is full, you'll see the green DONE LED light up.
+Plug the battery into the BATT port using a 2-pin JST cable. I used two Lithium Ion +3.7V, 1200 mAh batteries. When the CHRG charging light is lit, the battery is being charged. When the battery is full, you'll see the green DONE LED light up.
 
 [Screenshot 2018-04-30 20.19.30.png](https://bitbucket.org/repo/BgdaKR7/images/2858985469-Screenshot%202018-04-30%2020.19.30.png)
 
 
 ##Part4: Temperature Monitoring
 
-Since this part of the project will be installed outside, we needed to add temperature sensing to keep the charger from overheating the battery or attempting to charge when the battery is too hot or cold. So for this I attached thermistor to the batteries.
+Since this part of the project will be installed outside, we needed to add temperature sensing to keep the charger from overheating the battery or attempting to charge when the battery is too hot or cold. 
 
-![IMG_5939.JPG](https://bitbucket.org/repo/BgdaKR7/images/2603940918-IMG_5939.JPG)
+![Screenshot 2018-04-30 20.43.44.png](https://bitbucket.org/repo/BgdaKR7/images/2411472449-Screenshot%202018-04-30%2020.43.44.png)
 
-## Final Connection
+I removed the 10K surface mount resistor from the THERM pads, and solder in a 10K NTC thermistor. I attach the sensing element so it is resting between the two batteries as shown in the figure below.
+
+![Screenshot 2018-04-30 20.47.10.png](https://bitbucket.org/repo/BgdaKR7/images/2392315685-Screenshot%202018-04-30%2020.47.10.png)
+
+After following all the steps this is how the entire circuit looked like in working condition.
 
 ![IMG_5915.JPG](https://bitbucket.org/repo/BgdaKR7/images/3275491932-IMG_5915.JPG)
 
-## Providing Power to Raspberry Pi using Solar panel
+##Part5: Providing Power to Raspberry Pi
+
+I * EXPLAIN THE STEPS
+  * POST THE PICTURE
+
+##Conclusion
+
+
+
+
 
 
 
