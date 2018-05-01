@@ -40,16 +40,23 @@ I used LEDs to debug for the coils.
 
 This project uses the Rpi.GPIO Library.I used GPIO connector with the breadboard for Pi. To install RPi.GPIO, we first need to install the Python Development toolkit that RPi.GPIO requires.
 
-sudo apt-get install python-dev
+
+            sudo apt-get install python-dev
 
 
 Then to install Rpi.GPIO itself type:
 
 
-sudo apt-get install python-rpi.gpio
+             sudo apt-get install python-rpi.gpio
 
 
-You will probably be prompted to confirm by entering 'Y'.
+Confirm by entering 'Y'.
+
+I followed all the steps given in [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c) to Configure i2c. 
+
+##Connection
+
+Motor is operating on 12VDC and h bridge driver has 5 volts power supply. Connection is shown below.
 
 
 
