@@ -4,7 +4,7 @@ The real time clock maintains date and time information. For this lab we are usi
 
 ##Adafruit DS3231 Precision RTC Breakout
 
-![components_3013_kit_ORIG 2.jpg](https://bitbucket.org/repo/BgdaKR7/images/919966187-components_3013_kit_ORIG%202.jpg)
+![Screenshot 2018-05-01 10.15.03.png](https://bitbucket.org/repo/BgdaKR7/images/657605281-Screenshot%202018-05-01%2010.15.03.png)
 
 ## Benefits and Features 
 * Highly Accurate RTC Completely Manages All Timekeeping Functions
