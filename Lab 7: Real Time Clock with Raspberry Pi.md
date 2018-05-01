@@ -49,20 +49,22 @@ I followed [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-
 * Install the Utilities
        
        sudo apt-get update
+
        sudo apt-get install python-smbus
+
        sudo apt-get install i2c-tools
 
 * Enable kernel support
        
        sudo raspi-config
 
-       * Choose Advanced Options then I2C and select yes to enable the interface.
+Choose Advanced Options then I2C and select yes to enable the interface.
 
 * Edit the module file
 
-        sudo nano /etc/modules
+        sudo nano /etc/module
 
-        * Add the following to the to the end of this file
+Add the following to the to the end of this file
 
                 i2c-bcm2708
 
