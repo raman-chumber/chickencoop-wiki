@@ -58,6 +58,79 @@ I followed all the steps given in [this link](https://learn.adafruit.com/adafrui
 
 Motor is operating on 12VDC and h bridge driver has 5 volts power supply. Connection is shown below.
 
+(ADD CIRCUIT DIAGRAM)
+
+![Screenshot 2018-04-30 23.02.37.png](https://bitbucket.org/repo/BgdaKR7/images/3699783758-Screenshot%202018-04-30%2023.02.37.png)
+
+##Code
+
+```
+#!python
+
+import RPi.GPIO as GPIO
+import time
+ 
+GPIO.setmode(GPIO.BCM)
+ 
+enable_pin = 18
+coil_A_1_pin = 4
+coil_A_2_pin = 17
+coil_B_1_pin = 23
+coil_B_2_pin = 24
+ 
+GPIO.setup(enable_pin, GPIO.OUT)
+GPIO.setup(coil_A_1_pin, GPIO.OUT)
+GPIO.setup(coil_A_2_pin, GPIO.OUT)
+GPIO.setup(coil_B_1_pin, GPIO.OUT)
+GPIO.setup(coil_B_2_pin, GPIO.OUT)
+ 
+GPIO.output(enable_pin, 1)
+ 
+def forward(delay, steps):  
+  for i in range(0, steps):
+    setStep(1, 0, 1, 0)
+    time.sleep(delay)
+    setStep(0, 1, 1, 0)
+    time.sleep(delay)
+    setStep(0, 1, 0, 1)
+    time.sleep(delay)
+    setStep(1, 0, 0, 1)
+    time.sleep(delay)
+ 
+def backwards(delay, steps):  
+  for i in range(0, steps):
+    setStep(1, 0, 0, 1)
+    time.sleep(delay)
+    setStep(0, 1, 0, 1)
+    time.sleep(delay)
+    setStep(0, 1, 1, 0)
+    time.sleep(delay)
+    setStep(1, 0, 1, 0)
+    time.sleep(delay)
+ 
+  
+def setStep(w1, w2, w3, w4):
+  GPIO.output(coil_A_1_pin, w1)
+  GPIO.output(coil_A_2_pin, w2)
+  GPIO.output(coil_B_1_pin, w3)
+  GPIO.output(coil_B_2_pin, w4)
+ 
+while True:
+  delay = raw_input("Delay between steps (milliseconds)?")
+  steps = raw_input("How many steps forward? ")
+  forward(int(delay) / 1000.0, int(steps))
+  steps = raw_input("How many steps backwards? ")
+  backwards(int(delay) / 1000.0, int(steps))
+```
+I compiled and Executed this code and got following output.
+
+![Screenshot 2018-04-30 22.59.05.png](https://bitbucket.org/repo/BgdaKR7/images/1260765862-Screenshot%202018-04-30%2022.59.05.png)
+
+The working of the motor is shown here.
+
+
+##Conclusion
+
 
 
 ##Reference
