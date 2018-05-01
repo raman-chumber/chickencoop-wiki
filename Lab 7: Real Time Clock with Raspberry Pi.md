@@ -174,7 +174,7 @@ Fahrenheit = 9.0/5.0 * Celsius + 32
 print Fahrenheit, "*F /", Celsius, "*C"
 ```
 
-I Put the output in a loop as shown below. 
+I put the output in a loop as shown below. 
 
 ![Screenshot 2018-04-30 12.45.47.png](https://bitbucket.org/repo/BgdaKR7/images/1514071297-Screenshot%202018-04-30%2012.45.47.png)
 
