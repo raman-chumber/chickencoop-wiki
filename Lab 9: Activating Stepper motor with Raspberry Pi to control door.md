@@ -1,10 +1,10 @@
 ##Introduction
 
-In this lab we will be using 12 VDC bipolar stepper motor (angle 5.625 degrees/ 64 steps). Stepper motors can be positioned accurately, moved forward or backwards one step at a time. They are bipolar and can also rotate continuously. In this lab we will learn how to control a stepper motor using your Raspberry Pi and L298 dual H bridge driver. 
+Stepper motors can be positioned accurately, moved forward or backwards one step at a time. They are bipolar and can also rotate continuously. In this lab we used 12 VDC bipolar stepper motor (angle 5.625 degrees/ 64 steps).  We will learn how to control a stepper motor using your Raspberry Pi and L298 dual H bridge driver. 
 
 ##L298 dual h bridge driver
 
-The L298 Dual H-Bridge DC Motor Controller will allow you to easily and independently control two motors of up to 2A each in both directions.
+The L298 Dual H-Bridge DC Motor Controller allows us to easily and independently control two motors of up to 2A each in both directions.
 
 ![Screenshot 2018-04-30 21.24.19.png](https://bitbucket.org/repo/BgdaKR7/images/853047541-Screenshot%202018-04-30%2021.24.19.png)
 
@@ -13,7 +13,7 @@ Features
 
 *  Control Logic: Standard TTL Logic Level
 
-*  Output Power: Up to 2 A each
+*  Output Power: Up to 2A each
 
 *  Enable and Direction Control Pins
 
@@ -29,7 +29,7 @@ Features
 
 ##Stepper Motor coils
 
-Stepper motors use a cogged wheel and electro magnets to nudge the wheel round a 'step' at a time. By energizing the coils in the right order, the motor is driven round. The number of steps that the stepper motor has in a 360 degree rotation is actually the number of teeth on the cog. We are using stepper motor with angle 5.625 degrees/ 64 steps. 
+Stepper motors uses a cogged wheel and electro magnets to nudge the wheel round a 'step' at a time. By energizing the coils in the right order, the motor is driven round. The number of steps that the stepper motor has in a 360 degree rotation is actually the number of teeth on the cog. We are using stepper motor with angle 5.625 degrees/ 64 steps. 
 
 ![Screenshot 2018-04-30 21.16.48.png](https://bitbucket.org/repo/BgdaKR7/images/3802833717-Screenshot%202018-04-30%2021.16.48.png)
 
@@ -37,12 +37,12 @@ For this lab, I used 12VDC stepper motor shown in the figure below.
 
 ![Screenshot 2018-04-30 21.46.29.png](https://bitbucket.org/repo/BgdaKR7/images/1469060238-Screenshot%202018-04-30%2021.46.29.png)
 
-I used LEDs to debug for the coils. 
+I used LEDs for debug purpose. 
 
 ![Screenshot 2018-04-30 21.44.44.png](https://bitbucket.org/repo/BgdaKR7/images/1216232935-Screenshot%202018-04-30%2021.44.44.png)
 
 
-##Library Used
+##Libraries Used
 
 This project uses the Rpi.GPIO Library.I used GPIO connector with the breadboard for Pi. To install RPi.GPIO, we first need to install the Python Development toolkit that RPi.GPIO requires.
 
@@ -58,14 +58,14 @@ Then to install Rpi.GPIO itself type:
 
 Confirm by entering 'Y'.
 
-* Configuring I2C
+##Configuring I2C
 
- I2C is a very commonly used standard designed to allow one chip to talk to another. So, since the Raspberry Pi can talk I2C we can connect it to a variety of I2C capable chips and modules.The I2C bus allows multiple devices to be connected to your Raspberry Pi, each with a unique address, that can often be set by changing jumper settings on the module. It is very useful to be able to see which devices are connected to your Pi as a way of making sure everything is working.
+I2C allow one chip to talk to another. The I2C bus allows multiple devices to be connected to Raspberry Pi.Using following commands I configured I2C on the Pi.
 
       sudo apt-get install -y python-smbus
       sudo apt-get install -y i2c-tools
 
-* Installing Kernel Support 
+## Installing Kernel Support 
 
       sudo nano /etc/modules
 
