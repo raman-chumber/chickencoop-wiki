@@ -1,6 +1,6 @@
 #Introduction
 
-In this lab we used 6V Solar Panel to charge two Lithium Ion Polymer Batteries (3.7V 1200mAh each). We can use 3.7V/4.2V lithium ion/polymer batteries. We used USB/DC/Solar Lithium Ion/Polymer charger-v2. We also used a 10K NTC thermistor.
+In this lab we used 6V Solar Panel to charge two Lithium Ion Polymer Batteries (3.7V 1200mAh each). We can use 3.7V/4.2V lithium ion/polymer batteries. We used MCP73871 USB/DC/Solar Lithium Ion/Polymer charger-v2. We also used a 10K NTC thermistor.
 
 ## MCP73871 USB/DC/Solar Lithium Ion/Polymer charger
 
