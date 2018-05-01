@@ -20,26 +20,26 @@ We used USB / DC / Solar Lithium Ion/Polymer charger - v2 for this lab and a sol
 * Temperature monitoring of battery by soldering in a 10K NTC thermistor- suggested for outdoor projects where the battery may get hot (50°C) or cold (0°C).
 
 
-* Part1: Installing the Capacitor
+##Part1: Installing the Capacitor
 
 The first thing to do before starting to charge with a solar panel is to install the large filtering capacitor. There is a spot on the PCB for the capacitor, I installed it directly there by soldering the wires of the capacitor into the pads as shown in the figure below.
 
 ![Screenshot 2018-04-30 15.38.01.png](https://bitbucket.org/repo/BgdaKR7/images/730971483-Screenshot%202018-04-30%2015.38.01.png)
 
-* Part2: Solar Panel
+##Part2: Solar Panel
 
 Plug solar panel into the DC jack. Put the solar panel outside (and keep the battery out of the sun, it needs to be kept shaded!) to start charging. Once you've done that, look for the  PWR GOOD LED to indicate that the solar panel is providing power. 
 
 ![Screenshot 2018-04-30 20.41.04.png](https://bitbucket.org/repo/BgdaKR7/images/2145264248-Screenshot%202018-04-30%2020.41.04.png)
 
-* Part3: Battery
+##Part3: Battery
 
 Plug the battery into the BATT port using a 2-pin JST cable. I used two Lithium Ion +3.7V, 2000 mAh batteries. When the CHRG charging light is lit, the battery is being charged. When the battery is full, you'll see the green DONE LED light up.
 
 [Screenshot 2018-04-30 20.19.30.png](https://bitbucket.org/repo/BgdaKR7/images/2858985469-Screenshot%202018-04-30%2020.19.30.png)
 
 
-* Part4: Temperature Monitoring
+##Part4: Temperature Monitoring
 
 Since this part of the project will be installed outside, we needed to add temperature sensing to keep the charger from overheating the battery or attempting to charge when the battery is too hot or cold. So for this I attached thermistor to the batteries.
 
