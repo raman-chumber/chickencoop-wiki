@@ -1,10 +1,12 @@
 #Introduction
 
-The Real Time Clock maintains Date and Time information. For this lab we are using Adafruit DS3231 Precision RTC Breakout. It has an Extremely Accurate I²C-Integrated RTC/TCXO/Crystal. The date at the end of the month is automatically adjusted, for months with fewer than 31 days (including corrections for leap year). The clock operates in either the 24 or 12-hour format with an AM/PM indicator. Two programmable time-of-day alarms and a programmable square-wave output are provided. Address and data are transferred serially through an I2C bidirectional bus.
+The real time clock maintains date and time information. For this lab we are using Adafruit DS3231 Precision RTC Breakout. It has an Extremely Accurate I²C-Integrated RTC/TCXO/Crystal. The date at the end of the month is automatically adjusted, for months with fewer than 31 days (including corrections for leap year). The clock operates in either the 24 or 12-hour format with an AM/PM indicator. Two programmable time-of-day alarms and a programmable square-wave output are provided. Address and data are transferred serially through an I2C bidirectional bus.
+
+##Adafruit DS3231 Precision RTC Breakout
 
 ![components_3013_kit_ORIG 2.jpg](https://bitbucket.org/repo/BgdaKR7/images/919966187-components_3013_kit_ORIG%202.jpg)
 
-## Benefits and Features
+## Benefits and Features 
 * Highly Accurate RTC Completely Manages All Timekeeping Functions
 *  Accuracy ±2ppm from 0°C to +40°C
 * Accuracy ±3.5ppm from -40°C to +85°C
