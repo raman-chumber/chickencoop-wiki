@@ -56,6 +56,9 @@ You will probably be prompted to confirm by entering 'Y'.
 ##Reference
 
 (https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-gpio)
+
 (https://learn.adafruit.com/adafruits-raspberry-pi-lesson-10-stepper-motors?view=all)
+
 (http://www.instructables.com/id/Raspberry-PI-L298N-Dual-H-Bridge-DC-Motor/)
+
 (https://www.osepp.com/electronic-modules/breakout-boards/92-osepp-motor-driver-module)
