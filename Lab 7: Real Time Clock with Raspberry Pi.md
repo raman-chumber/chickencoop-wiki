@@ -44,10 +44,13 @@ Follow [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gp
 
 
 ##Part2: Configure RTC on Pi
+
 * Install the Utilities
        
        sudo apt-get update
+
        sudo apt-get install python-smbus
+
        sudo apt-get install i2c-tools
 
 * Enable kernel support
@@ -63,24 +66,34 @@ Follow [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gp
         * Add the following to the to the end of this file
 
                 i2c-bcm2708
+
                 i2c-dev
+
                 rtc-ds1307
 
 * Test the bus
 
-Check your I2C bus with, sudo i2cdetect -y 1
+Check your I2C bus with
+      
+             sudo i2cdetect -y 1
 
 After following all the steps, I got the Following output
+
 ![Screenshot 2018-04-30 12.28.43.png](https://bitbucket.org/repo/BgdaKR7/images/148155558-Screenshot%202018-04-30%2012.28.43.png)
 
-Set date and time
+##Set date and time
+
 When connected to the Internet, the pi automatically gets the date and time from time servers. These are quite accurate. With the command hwclock -s in rc.local, we have set the pi to override this time to match the RTC. This is fine once we have the correct time on the RTC. So let's set it to the correct time.
 
-             sudo nptd -g -q - set the pi's system time to Internet time
-             date - check the system time
-             sudo hwclock -r - check the date and time of the RTC
-             sudo hwclock -w - write the system time to the RTC
-             sudo hwclock -s - set the system time from the RTC
+             sudo nptd -g -q  (set the pi's system time to Internet time)
+
+             date   (check the system time)
+
+             sudo hwclock -r  (check the date and time of the RTC)
+
+             sudo hwclock -w  (write the system time to the RTC)
+
+             sudo hwclock -s  (set the system time from the RTC)
 
 Running all these commands in terminal I got the following output.
 
