@@ -48,11 +48,11 @@ I followed [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-
 
 * Install the Utilities
        
-       sudo apt-get update
+         sudo apt-get update
 
-       sudo apt-get install python-smbus
+         sudo apt-get install python-smbus
 
-       sudo apt-get install i2c-tools
+         sudo apt-get install i2c-tools
 
 * Enable kernel support
        
