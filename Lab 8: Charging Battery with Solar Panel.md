@@ -1,7 +1,8 @@
 #Introduction
 
-We used USB / DC / Solar Lithium Ion/Polymer charger - v2 for this lab and a solar panel. We can use 3.7V/4.2V lithium ion/polymer batteries. I used two Lithium Ion +3.7V, 2000 mAh batteries and Solar panel. 
+In this lab we used 6V Solar Panel to charge two Lithium Ion Polymer Batteries (3.7V 1200mAh each). We can use 3.7V/4.2V lithium ion/polymer batteries. We used USB/DC/Solar Lithium Ion/Polymer charger-v2. We also used a 10K NTC thermistor.
 
+##USB/DC/Solar Lithium Ion/Polymer charger
 
 ![390-07 2.jpg](https://bitbucket.org/repo/BgdaKR7/images/1188171953-390-07%202.jpg)
 
@@ -55,7 +56,8 @@ After following all the steps this is how the entire circuit looked like in work
 
 ##Part5: Providing Power to Raspberry Pi
 
-I * EXPLAIN THE STEPS
+  * EXPLAIN THE STEPS
+
   * POST THE PICTURE
 
 ##Conclusion
