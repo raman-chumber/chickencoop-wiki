@@ -10,6 +10,9 @@ We used USB / DC / Solar Lithium Ion/Polymer charger - v2 for this lab and a sol
 
 ![500-02 2.jpg](https://bitbucket.org/repo/BgdaKR7/images/2201019017-500-02%202.jpg)
 
+##Battery
+![Screenshot 2018-04-30 20.19.30.png](https://bitbucket.org/repo/BgdaKR7/images/2858985469-Screenshot%202018-04-30%2020.19.30.png)
+
 ##connection
 I followed all the steps in [this link](https://learn.adafruit.com/usb-dc-and-solar-lipoly-charger/using-the-charger?view=all#downloads) to connect the solar panel, Capacitor and thermistor to the batteries.
 
