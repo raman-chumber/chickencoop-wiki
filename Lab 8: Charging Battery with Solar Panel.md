@@ -37,7 +37,7 @@ Plug solar panel into the DC jack. Put the solar panel outside (and keep the bat
 
 Plug the battery into the BATT port using a 2-pin JST cable. I used two Lithium Ion +3.7V, 1200 mAh batteries. When the CHRG charging light is lit, the battery is being charged. When the battery is full, you'll see the green DONE LED light up.
 
-[Screenshot 2018-04-30 20.19.30.png](https://bitbucket.org/repo/BgdaKR7/images/2858985469-Screenshot%202018-04-30%2020.19.30.png)
+![Screenshot 2018-04-30 20.19.30.png](https://bitbucket.org/repo/BgdaKR7/images/2858985469-Screenshot%202018-04-30%2020.19.30.png)
 
 
 ##Part4: Temperature Monitoring
