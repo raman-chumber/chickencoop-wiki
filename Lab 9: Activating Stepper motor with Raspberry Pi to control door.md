@@ -52,7 +52,23 @@ Then to install Rpi.GPIO itself type:
 
 Confirm by entering 'Y'.
 
-I followed all the steps given in [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c) to Configure i2c. 
+* Configuring I2C
+
+ I2C is a very commonly used standard designed to allow one chip to talk to another. So, since the Raspberry Pi can talk I2C we can connect it to a variety of I2C capable chips and modules.The I2C bus allows multiple devices to be connected to your Raspberry Pi, each with a unique address, that can often be set by changing jumper settings on the module. It is very useful to be able to see which devices are connected to your Pi as a way of making sure everything is working.
+
+      sudo apt-get install -y python-smbus
+      sudo apt-get install -y i2c-tools
+
+* Installing Kernel Support 
+
+      sudo nano /etc/modules
+
+and add these two lines to the end of the file:
+
+      i2c-bcm2708 
+      i2c-dev
+
+Then save the file with Control-X Y <return>
 
 ##Connection
 
