@@ -1,8 +1,8 @@
 ##Introduction
 
-In this lab we will be using 12 VDC bipolar stepper motor (angle 5.625 degrees/ 64 steps). Stepper motors can be positioned accurately, moved forward or backwards one step at a time. They are bipolar and can also rotate continuously. In this lab we will learn how to control a stepper motor using your Raspberry Pi and L298D dual H bridge driver. (Write about driver)
+In this lab we will be using 12 VDC bipolar stepper motor (angle 5.625 degrees/ 64 steps). Stepper motors can be positioned accurately, moved forward or backwards one step at a time. They are bipolar and can also rotate continuously. In this lab we will learn how to control a stepper motor using your Raspberry Pi and L298D dual H bridge driver. 
 
-##Circuit Diagram
+
 
 
 
@@ -15,9 +15,9 @@ In this lab we will be using 12 VDC bipolar stepper motor (angle 5.625 degrees/ 
 
 ##Stepper Motor coils
 
-Stepper motors us a cogged wheel and electro magnets to nudge the wheel round a 'step' at a time. By energizing the coils in the right order, the motor is driven round. The number of steps that the stepper motor has in a 360 degree rotation is actually the number of teeth on the cog. We are using stepper motor with angle 5.625 degrees/ 64 steps. 
+Stepper motors use a cogged wheel and electro magnets to nudge the wheel round a 'step' at a time. By energizing the coils in the right order, the motor is driven round. The number of steps that the stepper motor has in a 360 degree rotation is actually the number of teeth on the cog. We are using stepper motor with angle 5.625 degrees/ 64 steps. 
 
-![Alt coils](https://cdn-learn.adafruit.com/assets/assets/000/003/696/original/learn_raspberry_pi_steppers.png?1396800693)
+![Screenshot 2018-04-30 21.16.48.png](https://bitbucket.org/repo/BgdaKR7/images/3802833717-Screenshot%202018-04-30%2021.16.48.png)
 
 ##Library Used
 
@@ -38,4 +38,7 @@ You will probably be prompted to confirm by entering 'Y'.
 
 ##Reference
 
-[GPIO Help](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-gpio)
+(https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-gpio)
+(https://learn.adafruit.com/adafruits-raspberry-pi-lesson-10-stepper-motors?view=all)
+(http://www.instructables.com/id/Raspberry-PI-L298N-Dual-H-Bridge-DC-Motor/)
+(https://www.osepp.com/electronic-modules/breakout-boards/92-osepp-motor-driver-module)
