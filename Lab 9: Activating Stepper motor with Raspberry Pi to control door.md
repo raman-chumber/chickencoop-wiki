@@ -8,7 +8,8 @@ The L298 Dual H-Bridge DC Motor Controller allows us to easily and independently
 
 ![Screenshot 2018-04-30 21.24.19.png](https://bitbucket.org/repo/BgdaKR7/images/853047541-Screenshot%202018-04-30%2021.24.19.png)
 
-Features
+##Features
+
 *  Motor supply: 7 to 24 VDC
 
 *  Control Logic: Standard TTL Logic Level
@@ -144,7 +145,7 @@ while True:
   steps = raw_input("How many steps backwards? ")
   backwards(int(delay) / 1000.0, int(steps))
 ```
-I compiled and Executed this code and got following output.
+When the steppers are not moving, they are still 'activated' and hold their position. This draws power. If you don't need the steppers to 'hold' their position, you can call setStep(0,0,0,0) to release the coils. The motor will spin freely and wont draw a lot of current. I compiled and Executed the code and got following output.
 
 ![Screenshot 2018-04-30 22.59.05.png](https://bitbucket.org/repo/BgdaKR7/images/1260765862-Screenshot%202018-04-30%2022.59.05.png)
 
@@ -154,6 +155,7 @@ The working of the motor is shown [here](https://www.youtube.com/watch?v=TrwNAtM
 
 
 ##Conclusion
+
 
 
 
