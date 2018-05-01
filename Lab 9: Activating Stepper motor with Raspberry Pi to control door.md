@@ -10,11 +10,17 @@ The L298 Dual H-Bridge DC Motor Controller will allow you to easily and independ
 
 Features
 *  Motor supply: 7 to 24 VDC
+
 *  Control Logic: Standard TTL Logic Level
+
 *  Output Power: Up to 2 A each
+
 *  Enable and Direction Control Pins
+
 *  Heatsink for IC
+
 *  Power-On LED indicator
+
 *  4 Direction LED indicators
 
 ##Pin plan
@@ -142,7 +148,9 @@ I compiled and Executed this code and got following output.
 
 ![Screenshot 2018-04-30 22.59.05.png](https://bitbucket.org/repo/BgdaKR7/images/1260765862-Screenshot%202018-04-30%2022.59.05.png)
 
-The working of the motor is shown here.
+##Motor Working Demo
+
+The working of the motor is shown [here](https://www.youtube.com/watch?v=TrwNAtM-FM8&feature=youtu.be).
 
 
 ##Conclusion
