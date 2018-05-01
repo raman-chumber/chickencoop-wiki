@@ -38,8 +38,9 @@ detect power failures, to provide a reset output, and to automatically switch to
 ![Screenshot 2018-04-30 12.19.05.png](https://bitbucket.org/repo/BgdaKR7/images/3162830509-Screenshot%202018-04-30%2012.19.05.png)
 
 ##Part1: Configuring I2C
-Follow [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
-) to configure I2C on the Pi
+
+I followed [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
+) to configure I2C on the Pi.
  
 
 
@@ -48,9 +49,7 @@ Follow [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gp
 * Install the Utilities
        
        sudo apt-get update
-
        sudo apt-get install python-smbus
-
        sudo apt-get install i2c-tools
 
 * Enable kernel support
