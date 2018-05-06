@@ -55,45 +55,41 @@ The downside of this approach is reduced current and power resolution.
 
 ##Functions
 
-INA219() constructs the class. The arguments, are:
+* INA219() constructs the class. The arguments, are:
 
-shunt_ohms: The value of the shunt resistor in Ohms (mandatory).
+* shunt_ohms: The value of the shunt resistor in Ohms (mandatory).
 
-max_expected_amps: The maximum expected current in Amps (optional).
+* max_expected_amps: The maximum expected current in Amps (optional).
 
-address: The I2C address of the INA219, defaults to 0x40 (optional).
+* address: The I2C address of the INA219, defaults to 0x40 (optional).
 
-configure() configures and calibrates how the INA219 will take measurements. The arguments, which are all optional, are:
+* configure() configures and calibrates how the INA219 will take measurements. The arguments, which are all optional, are:
 
-voltage_range: The full scale voltage range, this is either 16V or 32V, represented by one of the following constants (optional).
+* voltage_range: The full scale voltage range, this is either 16V or 32V, represented by one of the following constants (optional).
 
-gain: The gain, which controls the maximum range of the shunt voltage, represented by one of the following constants (optional).
+* gain: The gain, which controls the maximum range of the shunt voltage, represented by one of the following constants (optional).
 
-bus_adc: The bus ADC resolution (9, 10, 11, or 12-bit), or set the number of samples used when averaging results, represented by one of the following constants (optional).
+* bus_adc: The bus ADC resolution (9, 10, 11, or 12-bit), or set the number of samples used when averaging results, represented by one of the following constants (optional).
 
-shunt_adc: The shunt ADC resolution (9, 10, 11, or 12-bit), or set the number of samples used when averaging results, represented by one of the following constants (optional).
+* shunt_adc: The shunt ADC resolution (9, 10, 11, or 12-bit)
 
-ADC_9BIT: 9 bit, conversion time 84us.
+* voltage() Returns the bus voltage in volts (V).
 
-ADC_10BIT: 10 bit, conversion time 148us.
+* supply_voltage() Returns the bus supply voltage in volts (V). This is the sum of the bus voltage and shunt voltage. A DeviceRangeError exception is thrown if current overflow occurs.
 
-voltage() Returns the bus voltage in volts (V).
+* current() Returns the bus current in milliamps (mA). A DeviceRangeError exception is thrown if current overflow occurs.
 
-supply_voltage() Returns the bus supply voltage in volts (V). This is the sum of the bus voltage and shunt voltage. A DeviceRangeError exception is thrown if current overflow occurs.
+* power() Returns the bus power consumption in milliwatts (mW). A DeviceRangeError exception is thrown if current overflow occurs.
 
-current() Returns the bus current in milliamps (mA). A DeviceRangeError exception is thrown if current overflow occurs.
+* shunt_voltage() Returns the shunt voltage in millivolts (mV). A DeviceRangeError exception is thrown if current overflow occurs.
 
-power() Returns the bus power consumption in milliwatts (mW). A DeviceRangeError exception is thrown if current overflow occurs.
+* current_overflow() Returns 'True' if an overflow has occured. Alternatively handle the DeviceRangeError exception as shown in the examples above.
 
-shunt_voltage() Returns the shunt voltage in millivolts (mV). A DeviceRangeError exception is thrown if current overflow occurs.
+* sleep() Put the INA219 into power down mode.
 
-current_overflow() Returns 'True' if an overflow has occured. Alternatively handle the DeviceRangeError exception as shown in the examples above.
+* wake() Wake the INA219 from power down mode.
 
-sleep() Put the INA219 into power down mode.
-
-wake() Wake the INA219 from power down mode.
-
-reset() Reset the INA219 to its default configuration.
+* reset() Reset the INA219 to its default configuration.
 
 ##Connection
 
@@ -103,9 +99,7 @@ reset() Reset the INA219 to its default configuration.
 
 ![Screenshot 2018-05-06 13.12.18.png](https://bitbucket.org/repo/BgdaKR7/images/2874891055-Screenshot%202018-05-06%2013.12.18.png)
 
-
-
-
+##Conclusion
 
 
 
