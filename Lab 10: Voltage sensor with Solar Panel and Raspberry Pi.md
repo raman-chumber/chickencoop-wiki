@@ -27,3 +27,98 @@ A precision amplifier measures the voltage across the 0.1 ohm, 1% sense resistor
 ##Assembly
 
 The board comes with all surface-mount components pre-soldered.  Additional parts can be soldered using instructions in the [link](https://learn.adafruit.com/adafruit-ina219-current-sensor-breakout/assembly).
+
+##Raspberry Pi Python Library for Voltage Sensors Using the INA219
+
+This library and its dependency (Adafruit GPIO library) can be installed from PyPI by executing:
+
+                sudo pip install pi-ina219
+
+To upgrade from a previous version installed direct from Github execute:
+
+                sudo pip uninstall pi-ina219 
+                sudo pip install pi-ina219
+
+The Adafruit library supports the I2C protocol on all versions of the Raspberry Pi. Remember to enable the I2C bus under the Advanced Options of raspi-config.
+
+![Screenshot 2018-05-06 12.43.35.png](https://bitbucket.org/repo/BgdaKR7/images/2795712847-Screenshot%202018-05-06%2012.43.35.png)
+
+##Code
+
+Simple - Auto Gain
+
+This mode is great for getting started, as it will provide valid readings until the device current capability is exceeded for the value of the shunt resistor connected (3.2A for 0.1Ω shunt resistor). It does this by automatically adjusting the gain as required until the maximum is reached, when a DeviceRangeError exception is thrown to avoid invalid readings being taken.
+
+The downside of this approach is reduced current and power resolution.
+
+![Screenshot 2018-05-06 13.02.12.png](https://bitbucket.org/repo/BgdaKR7/images/424581768-Screenshot%202018-05-06%2013.02.12.png)
+
+##Functions
+
+INA219() constructs the class. The arguments, are:
+
+shunt_ohms: The value of the shunt resistor in Ohms (mandatory).
+
+max_expected_amps: The maximum expected current in Amps (optional).
+
+address: The I2C address of the INA219, defaults to 0x40 (optional).
+
+configure() configures and calibrates how the INA219 will take measurements. The arguments, which are all optional, are:
+
+voltage_range: The full scale voltage range, this is either 16V or 32V, represented by one of the following constants (optional).
+
+gain: The gain, which controls the maximum range of the shunt voltage, represented by one of the following constants (optional).
+
+bus_adc: The bus ADC resolution (9, 10, 11, or 12-bit), or set the number of samples used when averaging results, represented by one of the following constants (optional).
+
+shunt_adc: The shunt ADC resolution (9, 10, 11, or 12-bit), or set the number of samples used when averaging results, represented by one of the following constants (optional).
+
+ADC_9BIT: 9 bit, conversion time 84us.
+
+ADC_10BIT: 10 bit, conversion time 148us.
+
+voltage() Returns the bus voltage in volts (V).
+
+supply_voltage() Returns the bus supply voltage in volts (V). This is the sum of the bus voltage and shunt voltage. A DeviceRangeError exception is thrown if current overflow occurs.
+
+current() Returns the bus current in milliamps (mA). A DeviceRangeError exception is thrown if current overflow occurs.
+
+power() Returns the bus power consumption in milliwatts (mW). A DeviceRangeError exception is thrown if current overflow occurs.
+
+shunt_voltage() Returns the shunt voltage in millivolts (mV). A DeviceRangeError exception is thrown if current overflow occurs.
+
+current_overflow() Returns 'True' if an overflow has occured. Alternatively handle the DeviceRangeError exception as shown in the examples above.
+
+sleep() Put the INA219 into power down mode.
+
+wake() Wake the INA219 from power down mode.
+
+reset() Reset the INA219 to its default configuration.
+
+##Connection
+
+![2018-05-06-PHOTO-00000183.jpg](https://bitbucket.org/repo/BgdaKR7/images/2384691306-2018-05-06-PHOTO-00000183.jpg)
+
+##Output
+
+![Screenshot 2018-05-06 13.12.18.png](https://bitbucket.org/repo/BgdaKR7/images/2874891055-Screenshot%202018-05-06%2013.12.18.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+##Reference
+
+(https://github.com/adafruit/Adafruit_INA219)
+
+(https://github.com/chrisb2/pi_ina219)
+
+(https://learn.adafruit.com/adafruit-ina219-current-sensor-breakout/wiring)
