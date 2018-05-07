@@ -31,6 +31,7 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 [Lab 10: Voltage Sensor with Solar Panel and Raspberry Pi](https://bitbucket.org/coopacabana/project/wiki/Lab%2010:%20Voltage%20sensor%20with%20Solar%20Panel%20and%20Raspberry%20Pi)
 
+[All External Sensors Combined](https://bitbucket.org/coopacabana/project/wiki/All%20External%20sensors%20combined)
 
 ##Stephanie's Labs
 [Lab 6: Stepper Motor to run Feeder]
