@@ -36,6 +36,10 @@ The real time clock maintains date and time information. For this lab we are usi
 ## Pi GPIO Pinouts with RTC
 ![Screenshot 2018-04-30 12.19.05.png](https://bitbucket.org/repo/BgdaKR7/images/3162830509-Screenshot%202018-04-30%2012.19.05.png)
 
+##Connection
+
+![Screenshot 2018-05-06 18.17.02.png](https://bitbucket.org/repo/BgdaKR7/images/2291408983-Screenshot%202018-05-06%2018.17.02.png)
+
 ##Part 1: Configuring I2C
 
 I followed [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
