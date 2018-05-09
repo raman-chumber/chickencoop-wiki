@@ -59,9 +59,11 @@ After following all the steps this is how the entire circuit looked like in work
 
 ##Part5: Providing Power to Raspberry Pi
 
+![Screenshot 2018-05-09 13.20.56.png](https://bitbucket.org/repo/BgdaKR7/images/3936752844-Screenshot%202018-05-09%2013.20.56.png)
+
   * EXPLAIN THE STEPS
 
- *POst pic
+
 
 
 ##Conclusion
