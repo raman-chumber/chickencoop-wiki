@@ -22,6 +22,10 @@ In this lab I combined all the external sensors into one circuit.
 
 ![Screenshot 2018-05-06 18.38.17.png](https://bitbucket.org/repo/BgdaKR7/images/3726703386-Screenshot%202018-05-06%2018.38.17.png)
 
+6V Solar panel is connected to two lithium ion polymer batteries of 3.7V each using MCP 73871 solar lithium ion charger. Batteries have 10K NTC thermistor attached to them to monitor the temperature. The load port of the MCP is connected to Raspberry Pi using JST cable. It is providing power to raspberry Pi.
+
+To monitor Power supply, INA 219 voltage monitor is used. It will display the bus current, power and shunt voltage. TSL 2591 Luminosity sensor is used as light sensor. To monitor the food and water supply events DS3231 RTC is used. It also display the temperature reading. 
+
 ##Code
 
 
@@ -123,6 +127,10 @@ while True:
 ## Output
 
 ![Screenshot 2018-05-06 18.40.02.png](https://bitbucket.org/repo/BgdaKR7/images/2640213964-Screenshot%202018-05-06%2018.40.02.png)
+
+##Demo
+
+The demo of the project is shown [here](https://www.youtube.com/watch?v=XVABuwi5Eag).
 
 ##Conclusion
 
