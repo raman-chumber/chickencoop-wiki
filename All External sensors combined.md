@@ -20,7 +20,7 @@ In this lab I combined all the external sensors into one circuit.
 
 ##Circuit
 
-![Screenshot 2018-05-06 18.38.17.png](https://bitbucket.org/repo/BgdaKR7/images/3726703386-Screenshot%202018-05-06%2018.38.17.png)
+![Screenshot 2018-05-09 13.20.56.png](https://bitbucket.org/repo/BgdaKR7/images/3267003605-Screenshot%202018-05-09%2013.20.56.png)
 
 6V Solar panel is connected to two lithium ion polymer batteries of 3.7V each using MCP 73871 solar lithium ion charger. Batteries have 10K NTC thermistor attached to them to monitor the temperature. The load port of the MCP is connected to Raspberry Pi using JST cable. It is providing power to raspberry Pi.
 
@@ -135,4 +135,11 @@ The demo of the project is shown [here](https://www.youtube.com/watch?v=XVABuwi5
 ##Conclusion
 
 
+
 ##Reference
+
+
+(https://github.com/chrisb2/pi_ina219)
+(https://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi/set-rtc-time)
+(https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c)
+(http://www.intellamech.com/RaspberryPi-projects/rpi_RTCds3231)
