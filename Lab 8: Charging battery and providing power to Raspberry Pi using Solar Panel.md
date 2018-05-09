@@ -61,7 +61,8 @@ After following all the steps this is how the entire circuit looked like in work
 
   * EXPLAIN THE STEPS
 
-  * POST THE PICTURE
+  * Take and post picture
+
 
 ##Conclusion
 
