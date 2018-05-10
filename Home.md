@@ -23,9 +23,9 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 ![Screenshot 2018-05-10 16.28.42.png](https://bitbucket.org/repo/BgdaKR7/images/2546654572-Screenshot%202018-05-10%2016.28.42.png)
 
-                                     ##Subparts
+##Subparts
 
-##External Sensors and Door Control by Ramandeep Chumber
+##Part 1: External Sensors and Door Control by Ramandeep Chumber
 
 [Lab 6: Light Sensor (Digital Photo-resistor with Raspberry Pi)](https://bitbucket.org/coopacabana/project/wiki/Lab%206:%20Light%20Sensor%20(Digital%20Photo-resistor%20with%20Raspberry%20Pi))
 
