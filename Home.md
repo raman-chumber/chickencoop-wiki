@@ -5,8 +5,6 @@
 **Team Name: Coop-a-Cabana**   
                       
 
-
-
 ##Introduction
 
 The project will be a chicken coop that uses sensors and communication systems to make it
@@ -39,6 +37,8 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 [All External Sensors Combined](https://bitbucket.org/coopacabana/project/wiki/All%20External%20sensors%20combined)
 
-##Stephanie's Labs
-[Lab 6: Stepper Motor to run Feeder]
-(https://bitbucket.org/coopacabana/project/wiki/Stephanie's%20Lab6:%20Stepper%20Motor%20to%20run%20Feeder)
+##Part 2: Feeder and Water Control by Stephanie Rivers
+
+##Part 3: Construction and Webpage by Justin Ellis
+
+##Part 4: Internal Sensors by Gabriel Dominguez
