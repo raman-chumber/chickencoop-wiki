@@ -139,10 +139,10 @@ The demo of the project is shown [here](https://www.youtube.com/watch?v=XVABuwi5
 ##Reference
 
 
-(https://github.com/chrisb2/pi_ina219)
+https://github.com/chrisb2/pi_ina219
 
-(https://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi/set-rtc-time)
+https://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi/set-rtc-time
 
-(https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c)
+https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
 
-(http://www.intellamech.com/RaspberryPi-projects/rpi_RTCds3231)
+http://www.intellamech.com/RaspberryPi-projects/rpi_RTCds3231
