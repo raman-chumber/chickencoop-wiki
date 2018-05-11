@@ -41,4 +41,7 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 ##Part 3: Construction and Webpage by Justin Ellis
 
+![100MEDIA$IMAG3407.jpg](https://bitbucket.org/repo/BgdaKR7/images/1694420371-100MEDIA$IMAG3407.jpg)
+
+
 ##Part 4: Internal Sensors by Gabriel Dominguez
