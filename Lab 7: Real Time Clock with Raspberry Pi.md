@@ -47,15 +47,12 @@ I followed [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-
 
 
 * Install the utilities
- 
 
-```
-#!shell
+         sudo apt-get update
 
-sudo apt-get update
-sudo apt-get install python-smbus
-sudo apt-get install i2c-tools
-```
+         sudo apt-get install python-smbus
+
+         sudo apt-get install i2c-tools
 
 
 * Enable kernel support
@@ -78,11 +75,11 @@ sudo nano /etc/modules
 
 Add the following to the to the end of this file
            
-               i2c-bcm2708
+          i2c-bcm2708
 
-               i2c-dev
+          i2c-dev
 
-               rtc-ds1307
+          rtc-ds1307
  
 
 
