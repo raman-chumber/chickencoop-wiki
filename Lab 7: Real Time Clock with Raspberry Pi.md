@@ -8,7 +8,7 @@ The real time clock maintains date and time information. For this lab we are usi
 
 ## Benefits and Features 
 * Highly Accurate RTC Completely Manages All Timekeeping Functions
-*  Accuracy ±2ppm from 0°C to +40°C
+* Accuracy ±2ppm from 0°C to +40°C
 * Accuracy ±3.5ppm from -40°C to +85°C
 * Digital Temp Sensor Output: ±3°C Accuracy
 * Register for Aging Trim
@@ -48,21 +48,33 @@ I followed [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-
 
 * Install the utilities
  
-               sudo apt-get update
 
-               sudo apt-get install python-smbus
+```
+#!shell
 
-               sudo apt-get install i2c-tools
+sudo apt-get update
+sudo apt-get install python-smbus
+sudo apt-get install i2c-tools
+```
+
 
 * Enable kernel support
 
-               sudo raspi-config
+```
+#!shell
+
+sudo raspi-config
+```
 
 * Choose Advanced Options then I2C and select yes to enable the interface.
 
 Edit the module file
 
-               sudo nano /etc/modules
+```
+#!shell
+
+sudo nano /etc/modules
+```
 
 Add the following to the to the end of this file
            
