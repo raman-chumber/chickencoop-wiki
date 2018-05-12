@@ -9,7 +9,7 @@ In this lab I combined all the external sensors into one circuit.
 
 * MCP 73871 Solar lithium ion charger
 
-* 10K NTC Thermostor
+* 10K NTC Thermistor
 
 * INA 219 Voltage Monitor
 
