@@ -71,7 +71,7 @@ sudo apt-get install python-rpi.gpio
 
 Confirm by entering 'Y'.
 
-##Configuring I2C
+## Configuring I2C
 
 I2C allow one chip to talk to another. The I2C bus allows multiple devices to be connected to Raspberry Pi.Using following commands I configured I2C on the Pi.
 
@@ -92,8 +92,6 @@ Then save the file with Control-X Y <return>
 ##Connection
 
 Motor is operating on 12VDC and h bridge driver has 5 volts power supply. Connection is shown below.
-
-(ADD CIRCUIT DIAGRAM)
 
 ![Screenshot 2018-04-30 23.02.37.png](https://bitbucket.org/repo/BgdaKR7/images/3699783758-Screenshot%202018-04-30%2023.02.37.png)
 
