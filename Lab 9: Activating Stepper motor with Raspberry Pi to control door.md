@@ -48,13 +48,25 @@ I used LEDs for debug purpose.
 This project uses the Rpi.GPIO Library.I used GPIO connector with the breadboard for Pi. To install RPi.GPIO, we first need to install the Python Development toolkit that RPi.GPIO requires.
 
 
-            sudo apt-get install python-dev
+
+```
+#!shell
+
+sudo apt-get install python-dev
+```
+
 
 
 Then to install Rpi.GPIO itself type:
 
 
-             sudo apt-get install python-rpi.gpio
+
+```
+#!shell
+
+sudo apt-get install python-rpi.gpio
+```
+
 
 
 Confirm by entering 'Y'.
