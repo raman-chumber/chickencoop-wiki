@@ -54,32 +54,23 @@ I followed [this link](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-
 
          sudo apt-get install i2c-tools
 
-
 * Enable kernel support
 
-```
-#!shell
-
-sudo raspi-config
-```
+         sudo raspi-config
 
 * Choose Advanced Options then I2C and select yes to enable the interface.
 
-Edit the module file
+* Edit the module file
 
-```
-#!shell
+         sudo nano /etc/modules
 
-sudo nano /etc/modules
-```
-
-Add the following to the to the end of this file
+* Add the following to the to the end of this file
            
-          i2c-bcm2708
+         i2c-bcm2708
+         
+         i2c-dev
 
-          i2c-dev
-
-          rtc-ds1307
+         rtc-ds1307
  
 
 
@@ -97,25 +88,25 @@ Add the following to the to the end of this file
        
          sudo raspi-config
 
-Choose Advanced Options then I2C and select yes to enable the interface.
+* Choose Advanced Options then I2C and select yes to enable the interface.
 
 * Edit the module file
 
-        sudo nano /etc/module
+         sudo nano /etc/module
 
-Add the following to the to the end of this file
+* Add the following to the to the end of this file
 
-                i2c-bcm2708
+         i2c-bcm2708
 
-                i2c-dev
+         i2c-dev
 
-                rtc-ds1307
+         rtc-ds1307
 
 * Test the bus
 
-Check your I2C bus with
+* Check your I2C bus with
       
-             sudo i2cdetect -y 1
+         sudo i2cdetect -y 1
 
 After following all the steps, I got the Following output
 
@@ -125,15 +116,15 @@ After following all the steps, I got the Following output
 
 When connected to the Internet, the pi automatically gets the date and time from time servers. These are quite accurate. With the command hwclock -s in rc.local, we have set the pi to override this time to match the RTC. This is fine once we have the correct time on the RTC. So let's set it to the correct time.
 
-             sudo nptd -g -q  (set the pi's system time to Internet time)
+         sudo nptd -g -q  (set the pi's system time to Internet time)
 
-             date   (check the system time)
+         date   (check the system time)
+         
+         sudo hwclock -r  (check the date and time of the RTC)
 
-             sudo hwclock -r  (check the date and time of the RTC)
+         sudo hwclock -w  (write the system time to the RTC)
 
-             sudo hwclock -w  (write the system time to the RTC)
-
-             sudo hwclock -s  (set the system time from the RTC)
+         sudo hwclock -s  (set the system time from the RTC)
 
 Running all these commands in terminal I got the following output.
 
