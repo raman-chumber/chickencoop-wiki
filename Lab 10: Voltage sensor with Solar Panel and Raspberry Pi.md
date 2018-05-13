@@ -32,12 +32,24 @@ The board comes with all surface-mount components pre-soldered.  Additional part
 
 This library and its dependency (Adafruit GPIO library) can be installed from PyPI by executing:
 
-                sudo pip install pi-ina219
+
+```
+#!shell
+
+sudo pip install pi-ina219
+```
+
 
 To upgrade from a previous version installed direct from Github execute:
 
-                sudo pip uninstall pi-ina219 
-                sudo pip install pi-ina219
+
+```
+#!shell
+
+sudo pip uninstall pi-ina219 
+sudo pip install pi-ina219
+```
+
 
 The Adafruit library supports the I2C protocol on all versions of the Raspberry Pi. Remember to enable the I2C bus under the Advanced Options of raspi-config.
 
@@ -99,14 +111,8 @@ The downside of this approach is reduced current and power resolution.
 
 ![Screenshot 2018-05-06 13.12.18.png](https://bitbucket.org/repo/BgdaKR7/images/2874891055-Screenshot%202018-05-06%2013.12.18.png)
 
-##Conclusion
-
-
-
-
-
-
-
+# Conclusion
+INA219 Voltage sensor allows sensing for how much voltage and current is being sent to the battery. This allows debugging the voltage usage vs the generation. Using this sensor I can figure out capacity of the battery required or solar panel required to power a particular project. This also allows me to figure out how to orient the solar panel for maximum power generation. 
 
 
 ##Reference
