@@ -10,3 +10,4 @@ NOTE: The camera function must be turned on in the raspberry pi for it to be abl
 A Raspberry pi camera was used for this lab.
 
 ![IMAG3462.jpg](https://bitbucket.org/repo/BgdaKR7/images/442406342-IMAG3462.jpg)
+![IMAG3464.jpg](https://bitbucket.org/repo/BgdaKR7/images/1747678405-IMAG3464.jpg)
