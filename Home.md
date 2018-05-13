@@ -62,4 +62,4 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 
 
-##Video Demonstrations (https://youtu.be/nDml8yVoEi4)
+##Video Demonstrations [click to view](https://youtu.be/nDml8yVoEi4)
