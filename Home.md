@@ -39,6 +39,8 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 ##Part 2: Feeder and Water Control by Stephanie Rivers
 
+[Lab 6](https://bitbucket.org/coopacabana/project/wiki/Stephanie's%20Lab6)
+
 ##Part 3: Construction and Webpage by Justin Ellis
 
 [Lab 6: Building the Coop](https://bitbucket.org/coopacabana/project/wiki/Lab%206:%20Construction%20of%20Coop)
