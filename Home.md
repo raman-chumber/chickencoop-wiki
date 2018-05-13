@@ -29,7 +29,7 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 [Lab 7: Real Time Clock with Raspberry Pi](https://bitbucket.org/coopacabana/project/wiki/Lab7:%20RTC%20with%20Raspberry%20Pi)
 
-[Lab 8: Charging Battery and providing power to Raspberry Pi with Solar Panel](https://bitbucket.org/coopacabana/project/wiki/Lab%208:%20Charging%20battery%20and%20providing%20power%20to%20Raspberry%20Pi%20using%20Solar%20Panel)
+[Lab 8: Charging Battery and providing power to Raspberry Pi with Solar Panel](https://bitbucket.org/coopacabana/project/wiki/Lab%208:%20Solar%20Panel%20and%20Pi)
 
 [Lab 9: Activating Stepper Motor with Raspberry Pi to control door](https://bitbucket.org/coopacabana/project/wiki/Lab%209:%20Activating%20Stepper%20motor%20with%20Raspberry%20Pi%20to%20control%20door)
 
