@@ -31,7 +31,7 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 [Lab 8: Charging Battery and providing power to Raspberry Pi with Solar Panel](https://bitbucket.org/coopacabana/project/wiki/Lab%208:%20Solar%20Panel%20and%20Pi)
 
-[Lab 9: Activating Stepper Motor with Raspberry Pi to control door](https://bitbucket.org/coopacabana/project/wiki/Lab%209:%20Stepper%20Motor%20with%20Pi)
+[Lab 9: Activating Stepper Motor with Raspberry Pi to control door](https://bitbucket.org/coopacabana/project/wiki/Lab%209:%20Stepper%20Motor)
 
 [Lab 10: Voltage Sensor with Solar Panel and Raspberry Pi](https://bitbucket.org/coopacabana/project/wiki/Lab%209:%20Stepper%20Motor%20with%20Pi)
 
