@@ -27,4 +27,4 @@ A barcode was created.  I then scanned the code with my cell phone, and the app 
 ### CONCLUSION ###
 The program gives a rudimentary but very useful tool to make apps.  Although the list of tools available to manipulate a phone were limited, it gives a powerful opportunity to begin the process of immersing one in the world of app development and start getting creative.
 
-[Link Text](Link URL) http://appinventor.mit.edu/explore/
+(http://appinventor.mit.edu/explore/)
