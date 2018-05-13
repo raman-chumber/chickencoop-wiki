@@ -63,7 +63,7 @@ Output seen below for Lux, Full, IR.
 ![rsz_img_5919.jpg](https://bitbucket.org/repo/BgdaKR7/images/3784567407-rsz_img_5919.jpg)
 
 ##Conclusion
-
+With this lab I learned soldering header pins to the PCB. This sensor has extremely low current draw of 0.4mA while sensing and o.5 micro Ampere while in power down mode. This makes it extremely useful for battery driven applications like this Chicken Coup. The Lux sensor is very sensitive to changes in ambient lighting. This sensor will be used to sense when to open or close the coup doors based on sunrise or sunset. 
 
 ##Reference
 
