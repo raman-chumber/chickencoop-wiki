@@ -1,4 +1,6 @@
-##Introduction
+#Activating Stepper motor with Raspberry Pi to control door
+
+#Introduction
 
 Stepper motors can be positioned accurately, moved forward or backwards one step at a time. They are bipolar and can also rotate continuously. In this lab we used 12 VDC bipolar stepper motor (angle 5.625 degrees/ 64 steps).  We will learn how to control a stepper motor using your Raspberry Pi and L298 dual H bridge driver. 
 
