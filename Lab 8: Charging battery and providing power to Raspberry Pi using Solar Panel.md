@@ -38,7 +38,7 @@ Plug solar panel into the DC jack. Put the solar panel outside (and keep the bat
 
 ##Part3: Battery
 
-Plug the battery into the BATT port using a 2-pin JST cable. I used two Lithium Ion +3.7V, 1200 mAh batteries. When the CHRG charging light is lit, the battery is being charged. When the battery is full, you'll see the green DONE LED light up.
+Battery used is a 3.7 V 2000 mAh Lithium Polymer (LiPoly) battery. Plug the battery into the BATT port using a 2-pin JST cable. I used two Lithium Ion +3.7V, 1200 mAh batteries. When the CHRG charging light is lit, the battery is being charged. When the battery is full, you'll see the green DONE LED light up.
 
 ![Screenshot 2018-04-30 20.19.30.png](https://bitbucket.org/repo/BgdaKR7/images/2858985469-Screenshot%202018-04-30%2020.19.30.png)
 
@@ -65,14 +65,20 @@ After following all the steps this is how the entire circuit looked like in work
 
 
 
+## Conclusion
 
-##Conclusion
+The Adafruit LI-Poly Charger used in this project is a versatile charger breakout board. This board allows connecting solar panel directly without need for soldering. The power generated from the panel can be used to charge batteries or run a load like Raspberry PI. The board handles load sharing between battery and the Raspberry PI. I could not find a JST-ph cable male - USB female cable. So I created my own cable to allow connecting a Raspberry PI to the charger board.
+
+The solar panel needs direct sunlight and without direct light it takes long time to charge the battery. LI-Poly battery needs to be maintained at between 0 C to 40 C. If it gets too hot then it may catch fire or it could get damaged if being charged while too cold. In order to manage thermistor contact with both batteries I sandwiched the thermistor between the batteries.
+
+In order to generate sufficient current and stable voltage for running the PI I used 2x 3.7 V batteries in parallel. This should allow the batteries to power the PI for a long time between solar charges.
+
+The capacitor allows for a smoother transfer of power.
+
+This charger using solar panel can power raspberry without needed any additional power or internet connectivity.
 
 
 
 
-
-
-
-##Reference
+## Reference
 (https://learn.adafruit.com/usb-dc-and-solar-lipoly-charger/using-the-charger?view=all#downloads)
