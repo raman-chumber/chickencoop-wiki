@@ -1,4 +1,6 @@
-##Introduction
+##Light Sensor (Digital Photo-resistor with Raspberry Pi)
+
+#Introduction
 
 Luminosity sensor is an advanced digital light sensor. It is a very precise sensor that allow exact lux calculations. We are using TSL2591 luminosity sensor for this lab. It can configure for different gain/timing ranges to detect light ranges from 188uLux up to 88,000 Lux on the fly. It contains both Infrared and full spectrum diodes.  
 
