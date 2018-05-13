@@ -73,7 +73,7 @@ In order to generate sufficient current and stable voltage for running the PI I 
 
 The capacitor allows for a smoother transfer of power.
 
-This charger using solar panel can power raspberry without needed any additional power or internet connectivity.
+This charger using solar panel can power raspberry without need for any additional power connectivity.
 
 
 
