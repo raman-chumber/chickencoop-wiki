@@ -53,3 +53,13 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 
 ##Part 4: Internal Sensors by Gabriel Dominguez
+
+
+
+
+
+
+
+
+
+##Video Demonstrations (https://youtu.be/nDml8yVoEi4)
