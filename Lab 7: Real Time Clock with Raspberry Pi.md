@@ -186,13 +186,11 @@ I got the following output for this part.
 
 ![Screenshot 2018-04-30 12.44.27.png](https://bitbucket.org/repo/BgdaKR7/images/2417480648-Screenshot%202018-04-30%2012.44.27.png)
 
-##Conclusion
+## Conclusion
+DS3231 is a precision real time clock. This breakout board makes it easy to sync time in places where Raspberry PI may not have internet connectivity. The Chicken Coup is going to placed outdoors and potentially out of range of WiFi routers. This clock makes it easy to dispense water and feed on time daily. It's difficult to use DS3231 and hard to test. The only passive way to test this chip is to read from the temperature sensor. 
 
 
-
-
-
-##References
+## References
 
 [About Adafruit DS3231 Precision RTC Breakout](https://cdn-shop.adafruit.com/product-files/3013/DS3231.pdf)
 
