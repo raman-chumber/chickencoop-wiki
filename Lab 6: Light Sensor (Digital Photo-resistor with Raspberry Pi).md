@@ -63,7 +63,9 @@ Output seen below for Lux, Full, IR.
 ![rsz_img_5919.jpg](https://bitbucket.org/repo/BgdaKR7/images/3784567407-rsz_img_5919.jpg)
 
 ##Conclusion
-With this lab I learned soldering header pins to the PCB. This sensor has extremely low current draw of 0.4mA while sensing and o.5 micro Ampere while in power down mode. This makes it extremely useful for battery driven applications like this Chicken Coup. The Lux sensor is very sensitive to changes in ambient lighting. This sensor will be used to sense when to open or close the coup doors based on sunrise or sunset. 
+The sensor PCB comes with header pins and PCB separately. The pins needs to be soldered to the PCB before used. With this lab I learned soldering header pins to the PCB. Some of the documentation mentioned the sensor would work at 3.3V Vin but in my case the sensor would only work at 5V Vin. This sensor has extremely low current draw of 0.4mA while sensing and o.5 micro Ampere while in power down mode. This makes it extremely useful for battery driven applications like this Chicken Coup. The Lux sensor is very sensitive to changes in ambient lighting. This sensor will be used to sense when to open or close the coup doors based on sunrise or sunset. 
+
+The I2C function on Raspberry PI is powerful. As you can see in the I2Cdetect screenshot, there are three different sensors connected at this time. The are addressed using the I2C interface digitally. 
 
 ##Reference
 
