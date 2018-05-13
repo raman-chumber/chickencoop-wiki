@@ -1,4 +1,6 @@
-#Introduction
+##Voltage sensor with Solar Panel and Raspberry Pi
+
+##Introduction
 This lab uses INA 219 voltage monitor breakout board that helps in power-monitoring. INA219B chip on this breakout helps to measure both the high side voltage and DC current draw over I2C with 1% precision.
 
 ##Working of INA 219 voltage monitor
