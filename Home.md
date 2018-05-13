@@ -40,7 +40,10 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 ##Part 2: Feeder and Water Control by Stephanie Rivers
 
 ##Part 3: Construction and Webpage by Justin Ellis
+
 [Lab 6: Building the Coop](https://bitbucket.org/coopacabana/project/wiki/Lab%206)
+
+[Lab 7: Egg Detection System](https://bitbucket.org/coopacabana/project/wiki/Lab%207:%20Egg%20Detection%20System)
 
 [Lab 8: Static webpage](https://bitbucket.org/coopacabana/project/wiki/Lab%208:%20Static%20Webpage)
 
