@@ -41,7 +41,7 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 ##Part 3: Construction and Webpage by Justin Ellis
 
-[Lab 6: Building the Coop](https://bitbucket.org/coopacabana/project/wiki/Lab%206)
+[Lab 6: Building the Coop](https://bitbucket.org/coopacabana/project/wiki/Lab%206:%20Construction%20of%20Coop)
 
 [Lab 7: Egg Detection System](https://bitbucket.org/coopacabana/project/wiki/Lab%207:%20Egg%20Detection%20System)
 
