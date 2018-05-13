@@ -41,6 +41,9 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 ##Part 3: Construction and Webpage by Justin Ellis
 
+[Lab 8: Static webpage](https://bitbucket.org/coopacabana/project/wiki/Lab%208:%20Static%20Webpage)
+
+
 ![100MEDIA$IMAG3407.jpg](https://bitbucket.org/repo/BgdaKR7/images/1694420371-100MEDIA$IMAG3407.jpg)
 
 
