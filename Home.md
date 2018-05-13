@@ -49,6 +49,7 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 [Lab 8: Static webpage](https://bitbucket.org/coopacabana/project/wiki/Lab%208:%20Static%20Webpage)
 
+[Lab 10: Dynamic webpage](https://bitbucket.org/coopacabana/project/wiki/Lab%2010%20Dynamic%20Web%20page)
 
 
 ##Part 4: Internal Sensors by Gabriel Dominguez
