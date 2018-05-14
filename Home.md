@@ -54,10 +54,6 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 ##Part 4: Internal Sensors by Gabriel Dominguez
 
-[Lab 6: Beep](https://bitbucket.org/coopacabana/project/wiki/Lab%206:%20Piezo%20Beep)
-
-[Lab 7: App Inventor](https://bitbucket.org/coopacabana/project/wiki/Lab%207:%20App%20Inventor)
-
 [Lab8: Temperature Humidity Sensor](https://bitbucket.org/coopacabana/project/wiki/Lab%208:%20Temperature/Humidity%20Sensor)
 
 [Lab 9: Gas Sensor](https://bitbucket.org/coopacabana/project/wiki/Lab%209:%20Gas%20Sensor)
