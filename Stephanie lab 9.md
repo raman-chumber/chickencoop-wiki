@@ -1,46 +1,56 @@
-EEE 174 Lab 8: Using Raspberry Pi GPIO to run Capacitive Touch Sensor
-Components:
-Capacitive Touch sensor
-470 Ω resistor
-1 LED
-Touch sensor “off”
-
-Touch sensor “on”
+EEE 174 Lab 9: Using Raspberry Pi GPIO to control a h-bridge and motor
+Components: 
+12 Vdc power supply
+L298 dual H-bridge on breakout board
+12 Vdc motor
 
 
-Code:
-# ~/project/srivers/lab8.py
-# import required libraries
-import time
+	This for this lab, I  use the raspberry pi to control a dc motor. Below is the script I used to set it up.
+# ~/project/srivers/lab9.py
 import RPi.GPIO as GPIO
-GPIO.setmode(GPIO.BCM)
+import time
+
 try:
-    # set pin for touch sensor
-    PadPin=22
-    LedPin=10
-    GPIO.setup(PadPin, GPIO.IN)
-    GPIO.setup(LedPin, GPIO.OUT)
     
-    pressed=bool(0)
+    forward = 20 #GPio pin 
+    backward = 21 #GPio pin
+    sleeptime=1/2 #wait timer
+    ftime = 1 #forward timer
+    rtime = 1 #reverse timer
+    loopcount = 5 #loop counter
     
-    while True:
-        PadPressed=GPIO.input(PadPin)
-
-        if PadPressed and not pressed:
-            print("Touch sensor off")
-            #print(pressed)
-            GPIO.output(LedPin, GPIO.LOW)
-            
-        if pressed and not PadPressed:
-            print("Touch sensor on")
-            #print(pressed)
-            GPIO.output(LedPin, GPIO.HIGH)
-            
-        pressed=PadPressed
+    GPIO.setmode(GPIO.BCM) # sets GPIO pin mode
+    GPIO.setup(forward, GPIO.OUT) # assign pin as output
+    GPIO.setup(backward, GPIO.OUT) # assign pin as output
+    
+    def Forward(): #define function forward
+        print("forward") # print forward
+        GPIO.output(forward, GPIO.HIGH) # set pin assigned to forward high
+        time.sleep(ftime) # leave pin high for some set time
+        GPIO.output(forward, GPIO.LOW) # set pin low
         
-        time.sleep(0.1)
-
+    def Reverse(): # define function reverse
+        print("reverse") # print reverse
+        GPIO.output(backward, GPIO.HIGH) # set in assigned to reverse high
+        time.sleep(rtime) # leave pin high for some set time
+        GPIO.output(backward, GPIO.LOW) # set pin low
+        
+    for x in range(0,loopcount):
+        
+        x += 1
+        
+        Forward() # turn motor in forward direction
+        
+        time.sleep(sleeptime) # wait
+         
+        Reverse() # turn motor in reverese direction
+        
+        time.sleep(sleeptime) # wait
+        
+        
 except KeyboardInterrupt:
     pass
+    print("exit...")
+
 finally:
     GPIO.cleanup()
