@@ -44,5 +44,3 @@ except KeyboardInterrupt:
 
 finally:
     GPIO.cleanup()
-
-From terminal:
