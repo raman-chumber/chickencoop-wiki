@@ -21,6 +21,10 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 ![Screenshot 2018-05-10 16.28.42.png](https://bitbucket.org/repo/BgdaKR7/images/2546654572-Screenshot%202018-05-10%2016.28.42.png)
 
+##FLOWCHART
+
+![Screenshot 2018-05-13 22.09.59.png](https://bitbucket.org/repo/BgdaKR7/images/2035040752-Screenshot%202018-05-13%2022.09.59.png)
+
 ##SUBPARTS
 
 ##Part 1: External Sensors and Door Control by Ramandeep Chumber
