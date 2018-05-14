@@ -49,6 +49,8 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 [Lab 10: LCD display](https://bitbucket.org/coopacabana/project/wiki/Stephanie%20lab%2010)
 
+[Combined Lab](https://bitbucket.org/coopacabana/project/wiki/Stephanie%20combined%20lab)
+
 ##Part 3: Construction and Webpage by Justin Ellis
 
 [Lab 6: Building the Coop](https://bitbucket.org/coopacabana/project/wiki/Lab%206:%20Construction%20of%20Coop)
