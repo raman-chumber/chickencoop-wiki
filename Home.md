@@ -39,7 +39,15 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 ##Part 2: Feeder and Water Control by Stephanie Rivers
 
-[Labs] (https://bitbucket.org/coopacabana/project/wiki/Stephanie's%20Lab6)
+[Lab 6: Stepper Motor](https://bitbucket.org/coopacabana/project/wiki/Stephanie%20Lab%206)
+
+[Lab 7: Water Valve](https://bitbucket.org/coopacabana/project/wiki/Stephanie%20lab%207)
+
+[Lab 8: Touch Sensor](https://bitbucket.org/coopacabana/project/wiki/Stephanie%20lab%208)
+
+[Lab 9: Motor with H-Bridge](https://bitbucket.org/coopacabana/project/wiki/Stephanie%20lab%209)
+
+[Lab 10: LCD display](https://bitbucket.org/coopacabana/project/wiki/Stephanie%20lab%2010)
 
 ##Part 3: Construction and Webpage by Justin Ellis
 
