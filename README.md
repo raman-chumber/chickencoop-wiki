@@ -5,7 +5,7 @@
 **Team Name: Coop-a-Cabana**   
                       
 
-##Introduction
+## Introduction
 
 The project will be a chicken coop that uses sensors and communication systems to make it
 easy for someone who has limited time or experience to be able to house chickens safely. The
@@ -21,13 +21,13 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 ![Screenshot 2018-05-10 16.28.42.png](https://bitbucket.org/repo/BgdaKR7/images/2546654572-Screenshot%202018-05-10%2016.28.42.png)
 
-##FLOWCHART
+## FLOWCHART
 
 ![Screenshot 2018-05-13 22.09.59.png](https://bitbucket.org/repo/BgdaKR7/images/2035040752-Screenshot%202018-05-13%2022.09.59.png)
 
-##SUBPARTS
+## SUBPARTS
 
-##Part 1: External Sensors and Door Control by Ramandeep Chumber
+## Part 1: External Sensors and Door Control by Ramandeep Chumber
 
 [Lab 6: Light Sensor (Digital Photo-resistor with Raspberry Pi)](https://github.com/rchumber/chickencoop-wiki/blob/master/Lab%206:%20Light%20Sensor.md)
 
@@ -43,4 +43,4 @@ the heat lamps fail. A motor will be used to spin an arm that spreads feed out a
 
 
 
-##Video Demonstrations [click to view](https://youtu.be/nDml8yVoEi4)
+## Video Demonstrations [click to view](https://youtu.be/nDml8yVoEi4)
